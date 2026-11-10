@@ -1,0 +1,21 @@
+{
+  "run_id": "2026-06-15_01-57-54",
+  "workload_scale": "medium",
+  "hostname_label": "desktop-i9-rtx4060ti",
+  "sample_interval_s": 2,
+  "workload_values": {
+    "ollama_requests": 20,
+    "busqueda_requests": 750,
+    "iperf_bytes": "150G",
+    "sysbench_events": 150000,
+    "network_ping_count": 65,
+    "pytorch_gpu_epochs": 60,
+    "stressng_ops": 2500,
+    "ffmpeg_video_length": 900,
+    "k6_iterations": 300,
+    "fio_size": "3G",
+    "zip_rounds": 2,
+    "build_rounds": 8,
+    "redis_requests": 2500000
+  }
+}

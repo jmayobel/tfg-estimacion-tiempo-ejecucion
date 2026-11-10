@@ -1,0 +1,29 @@
+# Template — installed by install-resume-service.sh, which substitutes
+# __USER__ and __HOME__ with concrete values. Do not enable this file directly.
+[Unit]
+# Auto-resume an interrupted scaled batch after a Spot/preemptible eviction.
+# When the VM is evicted (evictionPolicy=Deallocate) it powers off. On the
+# next `az vm start`, this oneshot service runs the batch runner in
+# RESUME_ONLY mode: it continues the active session's remaining scales, or
+# exits immediately if there is no interrupted batch (so normal reboots are
+# no-ops and it never starts a brand-new batch by itself).
+Description=Resume interrupted dataset scaled batch on boot
+After=docker.service network-online.target
+Wants=docker.service network-online.target
+# Only run if a batch was left active (marker present).
+ConditionPathExists=__HOME__/dataset-creator/output/batch_state/.active_session
+
+[Service]
+Type=oneshot
+User=__USER__
+WorkingDirectory=__HOME__/dataset-creator
+Environment=RESUME_ONLY=1
+# Give Docker a moment to be fully ready before the orchestrator brings up
+# the monitoring stack.
+ExecStartPre=/bin/sleep 20
+ExecStart=/usr/bin/env bash scripts/run_scaled_batch.sh
+StandardOutput=append:__HOME__/batch_run.log
+StandardError=append:__HOME__/batch_run.log
+
+[Install]
+WantedBy=multi-user.target

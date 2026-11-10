@@ -1,0 +1,21 @@
+{
+  "run_id": "2026-06-18_20-57-37",
+  "workload_scale": "xlarge",
+  "hostname_label": "macbook-air-m4",
+  "sample_interval_s": 2,
+  "workload_values": {
+    "ollama_requests": 80,
+    "busqueda_requests": 5,
+    "iperf_bytes": "100G",
+    "sysbench_events": 10000,
+    "network_ping_count": 100,
+    "pytorch_gpu_epochs": 10,
+    "stressng_ops": 100000,
+    "ffmpeg_video_length": 120,
+    "k6_iterations": 1000,
+    "fio_size": "1G",
+    "zip_rounds": 3,
+    "build_rounds": 3,
+    "redis_requests": 1000000
+  }
+}

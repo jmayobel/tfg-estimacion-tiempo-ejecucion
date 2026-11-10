@@ -1,0 +1,359 @@
+# Benchmark services - started one at a time by the orchestrator
+# All services are in "no autostart" mode (profiles used to prevent auto-start)
+
+services:
+
+  # ============================================================
+  # OLLAMA - LLM inference server
+  # Service type: Model ML
+  # ============================================================
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ds-ollama
+    profiles: [ "ollama" ]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    networks:
+      - monitoring
+
+  # Ollama without GPU (for Mac / CPU-only)
+  ollama-cpu:
+    image: ollama/ollama:latest
+    container_name: ds-ollama
+    profiles: [ "ollama-cpu" ]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    networks:
+      - monitoring
+
+  # ============================================================
+  # BUSQUEDA CAMINOS - Path search / mathematical programming
+  # Service type: Compute
+  # ============================================================
+  busqueda-caminos:
+    image: anavaspe/busquedadecaminosprogramacionmatematica:latest
+    container_name: ds-busqueda-caminos
+    profiles: [ "busqueda-caminos" ]
+    ports:
+      - "5005:5000"
+    networks:
+      - monitoring
+
+  # ============================================================
+  # IPERF3 - Network throughput benchmark
+  # Service type: Network Benchmark
+  # Runs as server; orchestrator launches a client against it
+  # ============================================================
+  iperf3-server:
+    image: networkstatic/iperf3:latest
+    container_name: ds-iperf3-server
+    profiles: [ "iperf3" ]
+    command: [ "-s" ]
+    ports:
+      - "5201:5201"
+    networks:
+      - monitoring
+
+  iperf3-client:
+    image: networkstatic/iperf3:latest
+    container_name: ds-iperf3-client
+    profiles: [ "iperf3" ]
+    command: [ "-c", "ds-iperf3-server", "-n", "${IPERF_BYTES:-100G}", "-i", "1" ]
+    depends_on:
+      - iperf3-server
+    networks:
+      - monitoring
+
+  # ============================================================
+  # SYSBENCH - CPU / Memory / IO benchmark
+  # Service type: CPU Benchmark
+  # ============================================================
+  ds-sysbench:
+    image: severalnines/sysbench:latest
+    container_name: ds-sysbench
+    profiles: [ "sysbench" ]
+    # Run CPU benchmark for a fixed number of events
+    command: sysbench cpu --cpu-max-prime=20000 --threads=2 run --time=0 --events=${SYSBENCH_EVENTS:-10000}
+    labels:
+      service_type: "CPU Benchmark"
+    networks:
+      - monitoring
+
+  # ============================================================
+  # NETWORK-TOOLS - Network diagnostics
+  # Service type: Network Tools
+  # ============================================================
+  network-tools:
+    image: nicolaka/netshoot:latest
+    container_name: ds-network-tools
+    profiles: [ "network-tools" ]
+    entrypoint: [ "/bin/sh", "-c" ]
+    command:
+      - |
+        echo "=== Network Diagnostics ==="
+        echo "--- Ping test ($${NETWORK_PING_COUNT:-100} packets) ---"
+        ping -c ${NETWORK_PING_COUNT:-100} 8.8.8.8
+        echo "--- DNS lookups ($${NETWORK_PING_COUNT:-100} queries) ---"
+        for i in $$(seq 1 ${NETWORK_PING_COUNT:-100}); do dig +short google.com @8.8.8.8; done
+        echo "--- Traceroute ---"
+        traceroute -m 20 8.8.8.8 || true
+        echo "=== Network Diagnostics Complete ==="
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    networks:
+      - monitoring
+
+  # ============================================================
+  # PYTORCH GPU BENCHMARK - GPU compute via deep learning training
+  # Service type: GPU Benchmark
+  # ============================================================
+  pytorch-gpu-bench:
+    image: pytorch/pytorch:2.7.0-cuda12.8-cudnn9-runtime
+    container_name: ds-pytorch-gpu
+    profiles: [ "pytorch-gpu" ]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    volumes:
+      - ./scripts/pytorch_gpu_bench.py:/workspace/bench.py:ro
+    entrypoint: [ "python3", "/workspace/bench.py" ]
+    command: [ "${PYTORCH_GPU_EPOCHS:-10}" ]
+    shm_size: 2g
+    networks:
+      - monitoring
+
+  # ============================================================
+  # STRESS-NG - CPU / Memory / IO stress testing
+  # Service type: Stress Test
+  # ============================================================
+  stress-ng:
+    image: alexeiled/stress-ng:latest
+    container_name: ds-stress-ng
+    profiles: [ "stress-ng" ]
+    # Run CPU stress test for a fixed number of operations
+    command: --cpu 2 --cpu-method matrixprod --cpu-ops ${STRESSNG_OPS:-100000} --metrics-brief
+    labels:
+      service_type: "Stress Test"
+    networks:
+      - monitoring
+
+  # ============================================================
+  # FFMPEG - Video encoding benchmark
+  # Service type: Media Processing
+  # ============================================================
+  ffmpeg:
+    image: linuxserver/ffmpeg:latest
+    container_name: ds-ffmpeg
+    profiles: [ "ffmpeg" ]
+    # Generates a synthetic test video and encodes it
+    entrypoint: [ "/bin/sh", "-c" ]
+    command:
+      - |
+        ffmpeg -f lavfi -i testsrc=duration=${FFMPEG_VIDEO_LENGTH:-120}:size=1920x1080:rate=30 \
+          -f lavfi -i sine=frequency=1000:duration=${FFMPEG_VIDEO_LENGTH:-120} \
+          -c:v libx264 -preset medium -crf 23 \
+          -c:a aac -b:a 128k \
+          -y /tmp/benchmark_output.mp4 && \
+        echo "Encoding complete"
+    networks:
+      - monitoring
+
+  ffmpeg-gpu:
+    image: linuxserver/ffmpeg:latest
+    container_name: ds-ffmpeg
+    profiles: [ "ffmpeg-gpu" ]
+    entrypoint: [ "/bin/sh", "-c" ]
+    command:
+      - |
+        ffmpeg -f lavfi -i testsrc=duration=${FFMPEG_VIDEO_LENGTH:-120}:size=1920x1080:rate=30 \
+          -f lavfi -i sine=frequency=1000:duration=${FFMPEG_VIDEO_LENGTH:-120} \
+          -c:v h264_nvenc -preset p4 -cq 23 \
+          -c:a aac -b:a 128k \
+          -y /tmp/benchmark_output.mp4 && \
+        echo "GPU Encoding complete"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    networks:
+      - monitoring
+
+  # ============================================================
+  # K6 - Load testing tool
+  # Service type: Load Testing
+  # ============================================================
+  ds-k6:
+    image: grafana/k6:latest
+    container_name: ds-k6
+    profiles:
+      - k6
+    # Run load test for a fixed number of iterations
+    command: run --iterations ${K6_ITERATIONS:-1000} /scripts/k6_test.js
+    volumes:
+      - ./scripts:/scripts
+    labels:
+      service_type: "Load Testing"
+    networks:
+      - monitoring
+  # ============================================================
+  # FIO - Disk I/O Benchmark
+  # Service type: Disk Benchmark
+  # ============================================================
+  ds-fio:
+    image: alpine:latest
+    container_name: ds-fio
+    profiles:
+      - fio
+    # Run disk I/O benchmark for a fixed data size
+    entrypoint: [ "/bin/sh", "-c" ]
+    command:
+      - |
+        apk add --no-cache fio && \
+        fio --name=test --size=${FIO_SIZE:-1G} --directory=/tmp --rw=readwrite --bs=4k --direct=1 --numjobs=1 --group_reporting
+    labels:
+      service_type: "Disk Benchmark"
+    networks:
+      - monitoring
+
+  # ============================================================
+  # 7ZIP - Compression Benchmark
+  # Service type: Compression Benchmark
+  # ============================================================
+  ds-7zip:
+    image: alpine:latest
+    container_name: ds-7zip
+    profiles:
+      - 7zip
+    # Install 7zip and run benchmark for a fixed number of rounds
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        apk add --no-cache 7zip
+        echo "=== 7zip Benchmark — ${ZIP_ROUNDS:-3} rounds ==="
+        for ROUND in $$(seq 1 ${ZIP_ROUNDS:-3}); do
+          echo "[Round $$ROUND/${ZIP_ROUNDS:-3}] Running 7z benchmark ..."
+          7z b -mmt2 -md=26
+        done
+        echo "=== Completed ${ZIP_ROUNDS:-3} rounds of 7zip benchmark ==="
+    labels:
+      service_type: "Compression Benchmark"
+    networks:
+      - monitoring
+
+  # ============================================================
+  # BUILD - Compilation Benchmark
+  # Service type: Compilation Benchmark
+  # ============================================================
+  ds-build:
+    image: gcc:latest
+    container_name: ds-build
+    profiles:
+      - build
+    # Generate a large synthetic C source (~10k lines) and compile it
+    # repeatedly with different optimisation levels for BUILD_ROUNDS rounds.
+    entrypoint: [ "/bin/bash", "-c" ]
+    command:
+      - |
+        echo "=== Compilation Benchmark — ${BUILD_ROUNDS:-3} rounds ==="
+        # Generate a large C source file with awk (1000 functions, ~10k lines)
+        awk 'BEGIN {
+          print "#include <stdio.h>"
+          print "#include <stdlib.h>"
+          print "#include <math.h>"
+          for (i=1; i<=1000; i++) {
+            printf "double compute_%d(double *a, int n) {\n", i
+            print "  double s=0; int j;"
+            print "  for(j=0;j<n;j++) {"
+            print "    s += sin(a[j]) * cos(a[j]) + log(fabs(a[j])+1.0);"
+            print "    s += sqrt(fabs(s)) * tan(a[j]*0.001);"
+            print "  }"
+            print "  return s;"
+            print "}"
+          }
+          print "int main() {"
+          print "  double arr[1000]; int i;"
+          print "  for(i=0;i<1000;i++) arr[i]=i*0.01;"
+          print "  double total=0;"
+          for (i=1; i<=1000; i++) printf "  total += compute_%d(arr, 1000);\n", i
+          print "  printf(\"Result: %f\\n\", total);"
+          print "  return 0;"
+          print "}"
+        }' > big.c
+        echo "Source generated: $$(wc -l < big.c) lines"
+        for ROUND in $$(seq 1 ${BUILD_ROUNDS:-3}); do
+          for OPT in -O0 -O1 -O2 -O3 -Os; do
+            echo "[Round $$ROUND/${BUILD_ROUNDS:-3}] Compiling with $$OPT ..."
+            gcc $$OPT -lm -o big_test big.c
+            echo "[Round $$ROUND/${BUILD_ROUNDS:-3}] Running $$OPT binary ..."
+            ./big_test
+          done
+        done
+        echo "=== Completed ${BUILD_ROUNDS:-3} rounds of compilation ==="
+    labels:
+      service_type: "Compilation Benchmark"
+    networks:
+      - monitoring
+
+  # ============================================================
+  # REDIS - In-Memory Database Benchmark
+  # Service type: Memory Benchmark
+  # ============================================================
+  ds-redis:
+    image: redis:latest
+    container_name: ds-redis
+    profiles:
+      - redis-benchmark
+    networks:
+      - monitoring
+
+  ds-redis-benchmark:
+    image: redis:latest
+    container_name: ds-redis-benchmark
+    profiles:
+      - redis-benchmark
+    depends_on:
+      - ds-redis
+    # Run benchmark with a fixed number of requests.
+    entrypoint: [ "/bin/bash", "-c" ]
+    command:
+      - |
+        echo "=== Redis Benchmark — ${REDIS_REQUESTS:-1000000} requests ==="
+        redis-benchmark -h ds-redis -t set,get,incr,lpush,rpush,lpop,rpop,sadd,hset,zadd \
+          -n ${REDIS_REQUESTS:-1000000} -c 50 -P 16 -d 256 -q
+        echo "=== Redis Benchmark Complete ==="
+    labels:
+      service_type: "Memory Benchmark"
+    networks:
+      - monitoring
+
+volumes:
+  ollama_data:
+
+
+networks:
+  monitoring:
+    name: ds-monitoring
+    external: true

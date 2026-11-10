@@ -1,0 +1,67 @@
+# ============================================================================
+# Example Remote Hosts Configuration
+# ============================================================================
+# Example configuration for a 4-machine setup:
+# - 2 Azure VMs (1 CPU, 1 GPU)
+# - 1 Local Windows WSL2 machine
+# - 1 Local macOS machine
+#
+# Copy this to ../scripts/remote_hosts.txt and customize
+# ============================================================================
+
+# Azure VMs
+azure-cpu-01,azureuser,20.123.45.67,Azure Standard_D4s_v3 CPU-only VM (East US)
+azure-gpu-01,azureuser,20.123.45.68,Azure Standard_NC6 with Tesla K80 GPU (East US)
+
+# Local machines (if accessible via network)
+windows-rtx3060,myuser,192.168.1.100,Local Windows 11 WSL2 with NVIDIA RTX 3060
+macos-m4-pro,myuser,192.168.1.101,Local macOS Sonoma with Apple M4 Pro
+
+# Additional Azure VMs (commented out)
+#azure-cpu-02,azureuser,20.123.45.69,Azure Standard_D8s_v3 High-CPU VM (West US 2)
+#azure-gpu-v100,azureuser,20.123.45.70,Azure Standard_NC6s_v3 with Tesla V100 GPU (West Europe)
+
+# ============================================================================
+# Configuration Notes
+# ============================================================================
+#
+# 1. Hostname:
+#    - Must match HOSTNAME_LABEL in each machine's .env file
+#    - Use descriptive names: azure-cpu-01, windows-rtx3060, etc.
+#
+# 2. SSH User:
+#    - Default for Azure VMs: azureuser
+#    - For local machines: your username
+#    - Ensure SSH key-based authentication is configured
+#
+# 3. IP Address:
+#    - Azure VMs: Use public IP from deployment output
+#    - Local machines: Use local network IP (192.168.x.x)
+#    - Can also use hostnames if DNS is configured
+#
+# 4. Description:
+#    - Human-readable description for documentation
+#    - Include VM SKU, GPU type, region for clarity
+#
+# ============================================================================
+# SSH Setup
+# ============================================================================
+#
+# Before using this file, ensure SSH key-based authentication works:
+#
+# 1. Generate SSH key (if needed):
+#    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+#
+# 2. Copy public key to remote machines:
+#    # For Azure VMs (done automatically during deployment)
+#    # No action needed if you configured sshPublicKey in parameters.json
+#
+#    # For local machines:
+#    ssh-copy-id myuser@192.168.1.100
+#    ssh-copy-id myuser@192.168.1.101
+#
+# 3. Test SSH connection:
+#    ssh azureuser@20.123.45.67
+#    ssh myuser@192.168.1.100
+#
+# ============================================================================

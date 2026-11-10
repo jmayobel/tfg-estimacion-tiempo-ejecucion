@@ -1,0 +1,29 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 00:27:11,,8.0,6.54,32024.234375,,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,0,27
+2026-06-04 00:27:13,,8.0,6.54,32024.234375,10.26171875,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,2,25
+2026-06-04 00:27:15,0.523698180688676,8.0,6.54,32024.234375,10.91015625,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.005984316424016712,0.001132883702265611,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,4,23
+2026-06-04 00:27:17,0.690258071513707,8.0,6.02,32024.234375,10.79296875,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.009309915944987172,0.001519650674122025,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,6,21
+2026-06-04 00:27:19,0.8447392510529209,8.0,6.02,32024.234375,10.58203125,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.012888732076105979,0.0019604816866366334,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,8,19
+2026-06-04 00:27:21,0.9966804054806728,8.0,5.54,32024.234375,11.21875,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.016317948512089762,0.002276634104973996,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,10,17
+2026-06-04 00:27:23,0.9712112982074959,8.0,5.54,32024.234375,11.45703125,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0174682727007682,0.0020013692131643384,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,12,15
+2026-06-04 00:27:25,0.9686911113633784,8.0,5.54,32024.234375,11.3515625,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.01766013427900664,0.00206844153584491,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,14,13
+2026-06-04 00:27:27,0.9698599933855141,8.0,5.09,32024.234375,10.87109375,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.017571220612423433,0.0020514879215119785,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,16,11
+2026-06-04 00:27:29,0.953678513968115,8.0,5.09,32024.234375,11.11328125,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.01777290722527699,0.0020465569065836625,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,18,9
+2026-06-04 00:27:31,0.9499587458745873,8.0,4.69,32024.234375,11.1796875,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.01729255986816943,0.002017246745731702,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,20,7
+2026-06-04 00:27:33,0.9366773985833869,8.0,4.69,32024.234375,11.27734375,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.017179156301563508,0.0020418332917261956,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,22,5
+2026-06-04 00:27:35,0.9355427221420134,8.0,4.69,32024.234375,11.796875,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.017006545261473677,0.002038277013828504,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,24,3
+2026-06-04 00:27:37,0.9463863484273924,8.0,4.39,32024.234375,11.328125,Load Testing,grafana/k6:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.01701371573508384,0.0020144588309634138,azure-vm-dataset-creator-vm-arm,30.37,,,,120.0,iterations,,,,,,,2026-06-04 00:27:11,2026-06-04 00:27:38,27.0,26,1

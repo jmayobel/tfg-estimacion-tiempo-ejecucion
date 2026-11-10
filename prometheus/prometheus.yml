@@ -1,0 +1,27 @@
+global:
+  scrape_interval: 2s
+  evaluation_interval: 2s
+
+scrape_configs:
+  # Container metrics from cAdvisor
+  - job_name: "cadvisor"
+    static_configs:
+      - targets: ["cadvisor:8080"]
+
+  # Host-level metrics
+  - job_name: "node-exporter"
+    static_configs:
+      - targets: ["node-exporter:9100"]
+
+  # NVIDIA GPU metrics (only available on Windows/WSL2)
+  - job_name: "dcgm-exporter"
+    static_configs:
+      - targets: ["dcgm-exporter:9400"]
+    scrape_timeout: 2s
+
+  # Apple Silicon host metrics (only available on macOS)
+  # host.docker.internal resolves to the macOS host from inside Docker
+  - job_name: "apple-host-metrics"
+    static_configs:
+      - targets: ["host.docker.internal:9101"]
+    scrape_timeout: 2s

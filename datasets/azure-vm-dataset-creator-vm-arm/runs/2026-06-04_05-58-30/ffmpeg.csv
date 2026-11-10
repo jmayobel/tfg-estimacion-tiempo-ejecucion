@@ -1,0 +1,693 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 06:33:54,,8.0,1.69,32024.234375,,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,,,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,0,691
+2026-06-04 06:33:56,,8.0,1.69,32024.234375,11.5234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,,,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,2,689
+2026-06-04 06:33:58,243.14953377629726,8.0,1.69,32024.234375,1108.81640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.267104877830388e-05,1.4670667608188882e-05,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,,,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,4,687
+2026-06-04 06:34:00,371.6827025208681,8.0,2.04,32024.234375,1110.1640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.475096069597954e-05,1.3078075020460534e-05,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,,,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,6,685
+2026-06-04 06:34:02,500.5901456983483,8.0,2.04,32024.234375,1110.84765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.20191182236297e-05,1.1606583972489858e-05,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,,,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,8,683
+2026-06-04 06:34:04,631.2259354450562,8.0,2.04,32024.234375,1111.38671875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.425813958906859e-05,9.188878478793873e-06,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,10,681
+2026-06-04 06:34:06,646.2527928626844,8.0,3.16,32024.234375,1111.44140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.631652721546095e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,12,679
+2026-06-04 06:34:08,645.1805435453986,8.0,3.16,32024.234375,1112.22265625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.246720463055899e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,14,677
+2026-06-04 06:34:10,647.0109952877337,8.0,3.95,32024.234375,1112.51171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,16,675
+2026-06-04 06:34:12,647.340275024777,8.0,3.95,32024.234375,1113.73046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.270218303820305e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,18,673
+2026-06-04 06:34:14,646.2980062548867,8.0,3.95,32024.234375,1113.29296875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.699140233051538e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,20,671
+2026-06-04 06:34:16,649.1674327566614,8.0,4.51,32024.234375,1114.83984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.430004059658733e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,22,669
+2026-06-04 06:34:18,647.0882025661406,8.0,4.51,32024.234375,1114.67578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.580016140392585e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,24,667
+2026-06-04 06:34:20,649.4423029131575,8.0,5.03,32024.234375,1114.96484375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,26,665
+2026-06-04 06:34:22,649.2962989928405,8.0,5.03,32024.234375,1115.04296875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,28,663
+2026-06-04 06:34:24,646.9359017671518,8.0,5.03,32024.234375,1115.8359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,30,661
+2026-06-04 06:34:26,652.1817070095815,8.0,5.59,32024.234375,1116.171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,32,659
+2026-06-04 06:34:28,647.9491961050722,8.0,5.59,32024.234375,1116.7421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.558560025864754e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,34,657
+2026-06-04 06:34:30,649.4610541727674,8.0,6.02,32024.234375,1116.54296875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.885558651462466e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,36,655
+2026-06-04 06:34:32,651.1374214224084,8.0,6.02,32024.234375,1117.59765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.22842378262511e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,38,653
+2026-06-04 06:34:34,650.0011263073209,8.0,6.02,32024.234375,1117.421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.951086370131067e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7379868932689729,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,40,651
+2026-06-04 06:34:36,646.6678543255324,8.0,6.26,32024.234375,1118.25,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7217341777872733,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,42,649
+2026-06-04 06:34:38,648.7371734475374,8.0,6.26,32024.234375,1118.34765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.589283324411135,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,44,647
+2026-06-04 06:34:40,647.8991488891344,8.0,6.96,32024.234375,1118.65234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6083681054493202,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,46,645
+2026-06-04 06:34:42,525.192724515874,8.0,6.96,32024.234375,1118.65234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,48,643
+2026-06-04 06:34:44,651.2508397344096,8.0,6.96,32024.234375,1119.73828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,50,641
+2026-06-04 06:34:46,650.9807873445242,8.0,7.85,32024.234375,1120.57421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,52,639
+2026-06-04 06:34:48,649.4026888426895,8.0,7.85,32024.234375,1120.625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,54,637
+2026-06-04 06:34:50,561.1847467806842,8.0,8.34,32024.234375,1120.94140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,56,635
+2026-06-04 06:34:52,649.0698217450224,8.0,8.34,32024.234375,1121.56640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,58,633
+2026-06-04 06:34:54,646.1128650442474,8.0,8.34,32024.234375,1121.62890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,60,631
+2026-06-04 06:34:56,556.1729724886139,8.0,8.71,32024.234375,1121.62890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,62,629
+2026-06-04 06:34:58,644.1155797101449,8.0,8.71,32024.234375,1122.71484375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,64,627
+2026-06-04 06:35:00,643.8771239077801,8.0,8.74,32024.234375,1122.8125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,66,625
+2026-06-04 06:35:02,650.9536699569728,8.0,8.74,32024.234375,1123.625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,68,623
+2026-06-04 06:35:04,413.0613866666667,8.0,8.74,32024.234375,1123.625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,70,621
+2026-06-04 06:35:06,648.8287987449575,8.0,9.16,32024.234375,1124.50390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.480636726629035e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6167532776781713,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,72,619
+2026-06-04 06:35:08,564.743845663927,8.0,9.16,32024.234375,1124.50390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.793024496992654e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6425085961515973,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,74,617
+2026-06-04 06:35:10,647.2347479389111,8.0,10.51,32024.234375,1125.1015625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,9.02246278530038e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7438716380591972,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,76,615
+2026-06-04 06:35:12,530.7616551249503,8.0,10.51,32024.234375,1125.15625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,78,613
+2026-06-04 06:35:14,647.2777307149278,8.0,10.51,32024.234375,1126.1953125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,80,611
+2026-06-04 06:35:16,505.31228685222163,8.0,10.63,32024.234375,1126.8046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,82,609
+2026-06-04 06:35:18,557.4226669440734,8.0,10.63,32024.234375,1126.8046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,84,607
+2026-06-04 06:35:20,644.7971235376192,8.0,10.42,32024.234375,1127.6953125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,86,605
+2026-06-04 06:35:22,569.1798623426295,8.0,10.42,32024.234375,1127.6953125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,88,603
+2026-06-04 06:35:24,642.4396706941477,8.0,10.42,32024.234375,1128.0234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,90,601
+2026-06-04 06:35:26,530.2605489791517,8.0,10.14,32024.234375,1128.578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,92,599
+2026-06-04 06:35:28,642.8433514862719,8.0,10.14,32024.234375,1128.94140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,94,597
+2026-06-04 06:35:30,526.3459492125503,8.0,10.13,32024.234375,1129.25,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,96,595
+2026-06-04 06:35:32,523.722577464891,8.0,10.13,32024.234375,1129.25,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,98,593
+2026-06-04 06:35:34,646.0648743095478,8.0,10.13,32024.234375,1130.12109375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6204380847706008,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,100,591
+2026-06-04 06:35:36,645.0735720901507,8.0,10.2,32024.234375,1130.9453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5664203200576309,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,102,589
+2026-06-04 06:35:38,648.9746710129185,8.0,10.2,32024.234375,1131.75390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6644822226246527,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,104,587
+2026-06-04 06:35:40,387.2196133333334,8.0,9.46,32024.234375,1131.75390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,106,585
+2026-06-04 06:35:42,647.8187712880025,8.0,9.46,32024.234375,1131.87109375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,108,583
+2026-06-04 06:35:44,648.1142999875119,8.0,9.46,32024.234375,1132.41796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,110,581
+2026-06-04 06:35:46,651.256883378982,8.0,9.67,32024.234375,1132.9765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,112,579
+2026-06-04 06:35:48,512.4773165508166,8.0,9.67,32024.234375,1132.80859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,114,577
+2026-06-04 06:35:50,649.3468050687517,8.0,10.57,32024.234375,1133.1171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,116,575
+2026-06-04 06:35:52,650.5825799766859,8.0,10.57,32024.234375,1134.16015625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,118,573
+2026-06-04 06:35:54,651.1158293333331,8.0,10.57,32024.234375,1134.7890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.37374999999999997,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,120,571
+2026-06-04 06:35:56,576.8011226388501,8.0,11.09,32024.234375,1134.7890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.43004586670803246,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,122,569
+2026-06-04 06:35:58,648.4078258829059,8.0,11.09,32024.234375,1135.87109375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.41111184442097853,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,124,567
+2026-06-04 06:36:00,648.7670747347562,8.0,11.0,32024.234375,1135.453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.40852352221056315,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,126,565
+2026-06-04 06:36:02,645.0995402041038,8.0,11.0,32024.234375,1136.265625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.3929467589996635,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,128,563
+2026-06-04 06:36:04,392.40525333333306,8.0,11.0,32024.234375,1136.265625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,130,561
+2026-06-04 06:36:06,650.2268090452264,8.0,11.0,32024.234375,1136.3828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,132,559
+2026-06-04 06:36:08,649.2650711864402,8.0,11.0,32024.234375,1136.92578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,134,557
+2026-06-04 06:36:10,648.8281209554067,8.0,10.76,32024.234375,1137.75,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,136,555
+2026-06-04 06:36:12,527.2966801813476,8.0,10.76,32024.234375,1138.07421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,138,553
+2026-06-04 06:36:14,649.4986094397634,8.0,10.76,32024.234375,1138.8671875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.925952954731581e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,140,551
+2026-06-04 06:36:16,652.1646551724143,8.0,10.7,32024.234375,1138.93359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.883467424236833e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,142,549
+2026-06-04 06:36:18,651.1112603305786,8.0,10.7,32024.234375,1139.734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.620506475779636e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,144,547
+2026-06-04 06:36:20,643.9941747572805,8.0,10.72,32024.234375,1139.57421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.528002318400292e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,146,545
+2026-06-04 06:36:22,647.8178862763921,8.0,10.72,32024.234375,1140.1328125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,148,543
+2026-06-04 06:36:24,645.0902146038595,8.0,10.72,32024.234375,1141.171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,150,541
+2026-06-04 06:36:26,646.2952784366888,8.0,11.23,32024.234375,1141.04296875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6216995651191687,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,152,539
+2026-06-04 06:36:28,649.8756894049346,8.0,11.23,32024.234375,1141.33984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6656877418964684,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,154,537
+2026-06-04 06:36:30,519.5409152357904,8.0,10.89,32024.234375,1141.33984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6836304183565317,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,156,535
+2026-06-04 06:36:32,647.1340400471144,8.0,10.89,32024.234375,1142.44921875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6482810659599528,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,158,533
+2026-06-04 06:36:34,645.2856033078557,8.0,10.89,32024.234375,1142.48828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6896261433404336,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,160,531
+2026-06-04 06:36:36,645.3302299958688,8.0,11.3,32024.234375,1142.8203125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,162,529
+2026-06-04 06:36:38,529.2598379228114,8.0,11.3,32024.234375,1143.6171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,164,527
+2026-06-04 06:36:40,650.0153375733858,8.0,10.95,32024.234375,1143.953125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,166,525
+2026-06-04 06:36:42,649.3941418293947,8.0,10.95,32024.234375,1144.75390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,168,523
+2026-06-04 06:36:44,650.5144861337681,8.0,10.95,32024.234375,1144.86328125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,170,521
+2026-06-04 06:36:46,559.4095112270343,8.0,11.2,32024.234375,1144.86328125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,172,519
+2026-06-04 06:36:48,649.6750420711965,8.0,11.2,32024.234375,1145.45703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,174,517
+2026-06-04 06:36:50,649.8217540421355,8.0,10.7,32024.234375,1146.7578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,176,515
+2026-06-04 06:36:52,649.8053802160541,8.0,10.7,32024.234375,1146.859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,178,513
+2026-06-04 06:36:54,539.2058726347199,8.0,10.7,32024.234375,1146.93359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,180,511
+2026-06-04 06:36:56,648.3197965051994,8.0,10.64,32024.234375,1147.23046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6087045178057952,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,182,509
+2026-06-04 06:36:58,650.722899977112,8.0,10.64,32024.234375,1148.05078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6298816948958571,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,184,507
+2026-06-04 06:37:00,558.7761095280008,8.0,10.75,32024.234375,1148.05078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6310778906249999,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,186,505
+2026-06-04 06:37:02,644.3514963880308,8.0,10.75,32024.234375,1148.890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.8114265443019313,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,188,503
+2026-06-04 06:37:04,645.4718072937678,8.0,10.75,32024.234375,1148.47265625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,190,501
+2026-06-04 06:37:06,644.2113192182417,8.0,10.45,32024.234375,1149.04296875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,192,499
+2026-06-04 06:37:08,532.8744778455222,8.0,10.45,32024.234375,1149.33984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,194,497
+2026-06-04 06:37:10,646.0890970158887,8.0,10.82,32024.234375,1149.890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,196,495
+2026-06-04 06:37:12,647.5002345888176,8.0,10.82,32024.234375,1150.95703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,198,493
+2026-06-04 06:37:14,647.6300111982073,8.0,10.82,32024.234375,1151.0,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,200,491
+2026-06-04 06:37:16,646.0351788978837,8.0,10.27,32024.234375,1151.0703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,202,489
+2026-06-04 06:37:18,647.8812349252304,8.0,10.27,32024.234375,1152.13671875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,204,487
+2026-06-04 06:37:20,647.3615576182939,8.0,10.65,32024.234375,1152.48046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,206,485
+2026-06-04 06:37:22,552.7187995152166,8.0,10.65,32024.234375,1152.48046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,208,483
+2026-06-04 06:37:24,650.9572023121392,8.0,10.65,32024.234375,1153.08984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,210,481
+2026-06-04 06:37:26,650.35515868077,8.0,10.44,32024.234375,1153.65234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,212,479
+2026-06-04 06:37:28,649.7478785616523,8.0,10.44,32024.234375,1153.9453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6537148500684334,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,214,477
+2026-06-04 06:37:30,512.0723371421396,8.0,10.8,32024.234375,1154.06640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5949751763571786,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,216,475
+2026-06-04 06:37:32,570.9740058796145,8.0,10.8,32024.234375,1154.06640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6634128329203048,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,218,473
+2026-06-04 06:37:34,646.3334100266414,8.0,10.8,32024.234375,1155.66015625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6362201804310971,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,220,471
+2026-06-04 06:37:36,644.2283107710439,8.0,11.14,32024.234375,1155.72265625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,222,469
+2026-06-04 06:37:38,645.7883101851863,8.0,11.14,32024.234375,1156.55078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,224,467
+2026-06-04 06:37:40,499.2625432503054,8.0,10.89,32024.234375,1156.609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,226,465
+2026-06-04 06:37:42,543.1325496275145,8.0,10.89,32024.234375,1156.609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,228,463
+2026-06-04 06:37:44,644.7572819216159,8.0,10.89,32024.234375,1157.21484375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,230,461
+2026-06-04 06:37:46,642.2779864033681,8.0,10.82,32024.234375,1157.796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,232,459
+2026-06-04 06:37:48,546.2400748173249,8.0,10.82,32024.234375,1157.796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,234,457
+2026-06-04 06:37:50,532.3189303373122,8.0,10.35,32024.234375,1158.40625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,236,455
+2026-06-04 06:37:52,648.0730010121462,8.0,10.35,32024.234375,1158.71484375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,238,453
+2026-06-04 06:37:54,649.7627459699818,8.0,10.35,32024.234375,1159.28515625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,240,451
+2026-06-04 06:37:56,530.3413901903064,8.0,10.08,32024.234375,1160.09375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,242,449
+2026-06-04 06:37:58,643.402383567662,8.0,10.08,32024.234375,1160.44140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6045591223637962,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,244,447
+2026-06-04 06:38:00,644.398255167817,8.0,10.56,32024.234375,1160.5,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6116810680151145,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,246,445
+2026-06-04 06:38:02,646.8469561168687,8.0,10.56,32024.234375,1160.82421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6406595565126295,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,248,443
+2026-06-04 06:38:04,544.7327567790294,8.0,10.56,32024.234375,1160.82421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6997161805332743,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,250,441
+2026-06-04 06:38:06,651.9329862277452,8.0,10.43,32024.234375,1161.91796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6162698745941103,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,252,439
+2026-06-04 06:38:08,646.0911961057016,8.0,10.43,32024.234375,1161.734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,254,437
+2026-06-04 06:38:10,647.65265700483,8.0,11.28,32024.234375,1162.27734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,256,435
+2026-06-04 06:38:12,511.10610990794044,8.0,11.28,32024.234375,1163.3828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,258,433
+2026-06-04 06:38:14,566.7762472266977,8.0,11.28,32024.234375,1163.3828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,260,431
+2026-06-04 06:38:16,652.7327129721948,8.0,11.26,32024.234375,1164.51171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,262,429
+2026-06-04 06:38:18,651.947429237781,8.0,11.26,32024.234375,1164.81640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,264,427
+2026-06-04 06:38:20,654.3329446437702,8.0,11.08,32024.234375,1164.81640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,266,425
+2026-06-04 06:38:22,545.4721070517854,8.0,11.08,32024.234375,1165.9453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,268,423
+2026-06-04 06:38:24,579.6599408051658,8.0,11.08,32024.234375,1165.9453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,270,421
+2026-06-04 06:38:26,649.7076944253275,8.0,10.51,32024.234375,1166.046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,272,419
+2026-06-04 06:38:28,511.59114647995443,8.0,10.51,32024.234375,1166.09375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,274,417
+2026-06-04 06:38:30,648.6522023264947,8.0,10.47,32024.234375,1167.15234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7193708338779244,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,276,415
+2026-06-04 06:38:32,509.41591857275756,8.0,10.47,32024.234375,1167.4765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7316062189278068,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,278,413
+2026-06-04 06:38:34,649.5341801385675,8.0,10.47,32024.234375,1167.57421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6355549942263279,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,280,411
+2026-06-04 06:38:36,649.0165794811567,8.0,11.39,32024.234375,1167.89453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.126849807669211e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5875847389772606,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,282,409
+2026-06-04 06:38:38,548.6960204297371,8.0,11.39,32024.234375,1167.89453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.062625963523762e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,284,407
+2026-06-04 06:38:40,651.8422771753493,8.0,12.0,32024.234375,1168.984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.827982299449549e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,286,405
+2026-06-04 06:38:42,649.6253551912573,8.0,12.0,32024.234375,1169.33203125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.295869087260928e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,288,403
+2026-06-04 06:38:44,650.0514981573463,8.0,12.0,32024.234375,1169.33203125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,290,401
+2026-06-04 06:38:46,550.4013312711863,8.0,12.56,32024.234375,1170.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,292,399
+2026-06-04 06:38:48,651.8928027860197,8.0,12.56,32024.234375,1170.47265625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,294,397
+2026-06-04 06:38:50,649.6610087988523,8.0,12.36,32024.234375,1171.08984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,296,395
+2026-06-04 06:38:52,414.0938666666655,8.0,12.36,32024.234375,1171.08984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,298,393
+2026-06-04 06:38:54,655.5871680837149,8.0,12.36,32024.234375,1171.93359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,300,391
+2026-06-04 06:38:56,648.932497750352,8.0,12.01,32024.234375,1172.21484375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,302,389
+2026-06-04 06:38:58,646.8717856754704,8.0,12.01,32024.234375,1172.59375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5710146994891859,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,304,387
+2026-06-04 06:39:00,434.4499866666684,8.0,11.85,32024.234375,1172.59375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7005208333333335,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,306,385
+2026-06-04 06:39:02,646.4046078865761,8.0,11.85,32024.234375,1173.7109375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5819568287549846,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,308,383
+2026-06-04 06:39:04,569.992857846555,8.0,11.85,32024.234375,1173.7109375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6000828617725943,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,310,381
+2026-06-04 06:39:06,651.070813165537,8.0,11.86,32024.234375,1174.53515625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6357582587124878,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,312,379
+2026-06-04 06:39:08,551.9694768592675,8.0,11.86,32024.234375,1174.39453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,314,377
+2026-06-04 06:39:10,529.9941112700227,8.0,11.63,32024.234375,1174.39453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,316,375
+2026-06-04 06:39:12,545.2361346975351,8.0,11.63,32024.234375,1175.75390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,318,373
+2026-06-04 06:39:14,647.988063717576,8.0,11.63,32024.234375,1176.8359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,320,371
+2026-06-04 06:39:16,652.8013670040673,8.0,11.74,32024.234375,1176.40234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,322,369
+2026-06-04 06:39:18,413.87308,8.0,11.74,32024.234375,1176.40234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,324,367
+2026-06-04 06:39:20,650.9899122232459,8.0,11.92,32024.234375,1177.4921875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,326,365
+2026-06-04 06:39:22,653.5272462416978,8.0,11.92,32024.234375,1177.546875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,328,363
+2026-06-04 06:39:24,650.8802548748713,8.0,11.92,32024.234375,1177.86328125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,330,361
+2026-06-04 06:39:26,538.4266025438574,8.0,12.01,32024.234375,1178.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,332,359
+2026-06-04 06:39:28,650.9505754162553,8.0,12.01,32024.234375,1178.7578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,334,357
+2026-06-04 06:39:30,647.1760862427479,8.0,11.12,32024.234375,1179.59375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6023756429900405,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,336,355
+2026-06-04 06:39:32,646.9743553476221,8.0,11.12,32024.234375,1180.140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5988364976607551,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,338,353
+2026-06-04 06:39:34,543.0934330000011,8.0,11.12,32024.234375,1180.140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6375358072916666,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,340,351
+2026-06-04 06:39:36,647.0068358172217,8.0,11.11,32024.234375,1180.76171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6779044525187832,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,342,349
+2026-06-04 06:39:38,649.4934860168,8.0,11.11,32024.234375,1181.30078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6334337956036368,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,344,347
+2026-06-04 06:39:40,652.4208214285691,8.0,11.19,32024.234375,1181.90625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,346,345
+2026-06-04 06:39:42,430.785146666664,8.0,11.19,32024.234375,1181.90625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,348,343
+2026-06-04 06:39:44,652.7913263269895,8.0,11.19,32024.234375,1182.0,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,350,341
+2026-06-04 06:39:46,654.3872983354695,8.0,11.01,32024.234375,1183.30078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,352,339
+2026-06-04 06:39:48,652.215869775439,8.0,11.01,32024.234375,1183.41796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,354,337
+2026-06-04 06:39:50,552.2336918918111,8.0,10.61,32024.234375,1183.48046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,356,335
+2026-06-04 06:39:52,565.9291595321367,8.0,10.61,32024.234375,1183.48046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,358,333
+2026-06-04 06:39:54,653.5969832959335,8.0,10.61,32024.234375,1184.3046875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,360,331
+2026-06-04 06:39:56,650.0049042234007,8.0,11.36,32024.234375,1185.1328125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,362,329
+2026-06-04 06:39:58,647.393101964717,8.0,11.36,32024.234375,1184.69921875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,364,327
+2026-06-04 06:40:00,539.7860299145296,8.0,11.01,32024.234375,1185.52734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,366,325
+2026-06-04 06:40:02,652.368455181182,8.0,11.01,32024.234375,1186.30859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.69979736172918,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,368,323
+2026-06-04 06:40:04,652.6132766439879,8.0,11.01,32024.234375,1186.9140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6240256519274376,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,370,321
+2026-06-04 06:40:06,574.8505904187524,8.0,11.33,32024.234375,1186.9140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.67301869761234,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,372,319
+2026-06-04 06:40:08,650.5182006741034,8.0,11.33,32024.234375,1186.7734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7134957544723879,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,374,317
+2026-06-04 06:40:10,650.6871389645793,8.0,11.3,32024.234375,1187.859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,376,315
+2026-06-04 06:40:12,573.3029544318613,8.0,11.3,32024.234375,1187.859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,378,313
+2026-06-04 06:40:14,531.3033365752459,8.0,11.3,32024.234375,1188.4453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,380,311
+2026-06-04 06:40:16,650.0092816359027,8.0,11.12,32024.234375,1188.75,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,382,309
+2026-06-04 06:40:18,649.211885815331,8.0,11.12,32024.234375,1189.3125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,384,307
+2026-06-04 06:40:20,546.9073404975297,8.0,11.51,32024.234375,1189.41796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,386,305
+2026-06-04 06:40:22,654.7853465820701,8.0,11.51,32024.234375,1189.72265625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,388,303
+2026-06-04 06:40:24,656.4003454629227,8.0,11.51,32024.234375,1190.78515625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,390,301
+2026-06-04 06:40:26,655.449870405281,8.0,11.31,32024.234375,1191.0859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,392,299
+2026-06-04 06:40:28,652.7374564702584,8.0,11.31,32024.234375,1192.1171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,394,297
+2026-06-04 06:40:30,650.9933693571999,8.0,10.96,32024.234375,1191.75,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,396,295
+2026-06-04 06:40:32,572.3264444197465,8.0,10.96,32024.234375,1191.75,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,398,293
+2026-06-04 06:40:34,645.711556940652,8.0,10.96,32024.234375,1192.08203125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7147002012725621,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,400,291
+2026-06-04 06:40:36,650.5590259892307,8.0,11.05,32024.234375,1193.3984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6443346113322407,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,402,289
+2026-06-04 06:40:38,652.9233559498907,8.0,11.05,32024.234375,1193.44921875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7181506067327766,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,404,287
+2026-06-04 06:40:40,551.9559199035701,8.0,11.04,32024.234375,1193.49609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,406,285
+2026-06-04 06:40:42,652.0681298371295,8.0,11.04,32024.234375,1193.8515625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,408,283
+2026-06-04 06:40:44,645.6154908169748,8.0,11.04,32024.234375,1194.640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,410,281
+2026-06-04 06:40:46,643.6045243128991,8.0,11.28,32024.234375,1194.98828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,412,279
+2026-06-04 06:40:48,646.6650572320485,8.0,11.28,32024.234375,1195.80078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,414,277
+2026-06-04 06:40:50,556.6167889792227,8.0,11.58,32024.234375,1195.80078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,416,275
+2026-06-04 06:40:52,644.2666368743621,8.0,11.58,32024.234375,1196.375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,418,273
+2026-06-04 06:40:54,648.7675360329423,8.0,11.58,32024.234375,1196.68359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,420,271
+2026-06-04 06:40:56,644.5593589931245,8.0,11.21,32024.234375,1196.77734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,422,269
+2026-06-04 06:40:58,535.8024439227518,8.0,11.21,32024.234375,1197.31640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,424,267
+2026-06-04 06:41:00,643.9908396075743,8.0,11.11,32024.234375,1197.671875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,426,265
+2026-06-04 06:41:02,536.7303709822056,8.0,11.11,32024.234375,1197.671875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,428,263
+2026-06-04 06:41:04,647.4087878787846,8.0,11.11,32024.234375,1198.75,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6949376578282828,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,430,261
+2026-06-04 06:41:06,649.5474056877545,8.0,10.95,32024.234375,1199.8203125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6388747823563552,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,432,259
+2026-06-04 06:41:08,651.6078160643524,8.0,10.95,32024.234375,1199.640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6608123724336654,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,434,257
+2026-06-04 06:41:10,545.0926046635294,8.0,10.47,32024.234375,1199.9375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,436,255
+2026-06-04 06:41:12,652.9323777191016,8.0,10.47,32024.234375,1200.02734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,438,253
+2026-06-04 06:41:14,654.4229395973138,8.0,10.47,32024.234375,1201.0703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,440,251
+2026-06-04 06:41:16,654.0189132978016,8.0,10.35,32024.234375,1201.12890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,442,249
+2026-06-04 06:41:18,653.7763406940046,8.0,10.35,32024.234375,1201.75,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,444,247
+2026-06-04 06:41:20,578.4031978977264,8.0,10.4,32024.234375,1201.75,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,446,245
+2026-06-04 06:41:22,652.4189931350118,8.0,10.4,32024.234375,1202.59765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,448,243
+2026-06-04 06:41:24,650.1113444419123,8.0,10.4,32024.234375,1203.15234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,450,241
+2026-06-04 06:41:26,648.9096847384748,8.0,10.37,32024.234375,1203.20703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,452,239
+2026-06-04 06:41:28,491.99874762480056,8.0,10.37,32024.234375,1204.05859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,454,237
+2026-06-04 06:41:30,640.710031941324,8.0,10.34,32024.234375,1204.1171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,456,235
+2026-06-04 06:41:32,538.9547803573846,8.0,10.34,32024.234375,1204.1171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,458,233
+2026-06-04 06:41:34,646.7517772215273,8.0,10.34,32024.234375,1205.1953125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,460,231
+2026-06-04 06:41:36,648.790009555155,8.0,10.23,32024.234375,1205.55078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5843408270517039,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,462,229
+2026-06-04 06:41:38,654.338655247347,8.0,10.23,32024.234375,1206.11328125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7035544228556819,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,464,227
+2026-06-04 06:41:40,421.12369333333237,8.0,10.62,32024.234375,1206.11328125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7338541666666667,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,466,225
+2026-06-04 06:41:42,644.9187362503028,8.0,10.62,32024.234375,1206.4609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.672684704228795,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,468,223
+2026-06-04 06:41:44,647.9205096333104,8.0,10.62,32024.234375,1206.765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,470,221
+2026-06-04 06:41:46,648.9964232286134,8.0,10.41,32024.234375,1207.58984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,472,219
+2026-06-04 06:41:48,536.0608430293456,8.0,10.41,32024.234375,1208.37890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,474,217
+2026-06-04 06:41:50,650.2977688081633,8.0,10.21,32024.234375,1208.48828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,476,215
+2026-06-04 06:41:52,557.8783767814214,8.0,10.21,32024.234375,1208.48828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,478,213
+2026-06-04 06:41:54,645.0706741946182,8.0,10.21,32024.234375,1209.125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,480,211
+2026-06-04 06:41:56,563.7112720189931,8.0,10.44,32024.234375,1209.125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,482,209
+2026-06-04 06:41:58,648.1932465509539,8.0,10.44,32024.234375,1209.734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,484,207
+2026-06-04 06:42:00,652.599665551841,8.0,10.16,32024.234375,1210.5234375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,486,205
+2026-06-04 06:42:02,648.9028169014119,8.0,10.16,32024.234375,1211.0625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,488,203
+2026-06-04 06:42:04,500.2560849816339,8.0,10.16,32024.234375,1210.8828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,490,201
+2026-06-04 06:42:06,650.9023956390814,8.0,9.99,32024.234375,1211.43359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,492,199
+2026-06-04 06:42:08,646.5323408496341,8.0,9.99,32024.234375,1212.52734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6856741310576805,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,494,197
+2026-06-04 06:42:10,646.9732511292877,8.0,9.83,32024.234375,1212.578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6719455805151996,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,496,195
+2026-06-04 06:42:12,647.0415240555351,8.0,9.83,32024.234375,1213.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5923911581099989,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,498,193
+2026-06-04 06:42:14,541.4944994540522,8.0,9.83,32024.234375,1213.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6258090160472973,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,500,191
+2026-06-04 06:42:16,644.7241486486464,8.0,10.08,32024.234375,1213.76171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,502,189
+2026-06-04 06:42:18,647.6363504611353,8.0,10.08,32024.234375,1214.0703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,504,187
+2026-06-04 06:42:20,649.7539911048666,8.0,10.0,32024.234375,1214.4140625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,506,185
+2026-06-04 06:42:22,649.1935604923465,8.0,10.0,32024.234375,1215.46484375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,508,183
+2026-06-04 06:42:24,649.7766842413631,8.0,10.0,32024.234375,1215.30078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,510,181
+2026-06-04 06:42:26,648.0331240582583,8.0,9.92,32024.234375,1216.078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,512,179
+2026-06-04 06:42:28,645.8301975540942,8.0,9.92,32024.234375,1216.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,514,177
+2026-06-04 06:42:30,650.7590019569487,8.0,9.52,32024.234375,1216.453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,516,175
+2026-06-04 06:42:32,648.7897376243995,8.0,9.52,32024.234375,1216.78515625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,518,173
+2026-06-04 06:42:34,651.8004199160175,8.0,9.52,32024.234375,1217.57421875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,520,171
+2026-06-04 06:42:36,655.7525003463076,8.0,9.24,32024.234375,1217.65625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,522,169
+2026-06-04 06:42:38,650.3106172270818,8.0,9.24,32024.234375,1217.9921875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6337985087517273,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,524,167
+2026-06-04 06:42:40,652.6633111141349,8.0,9.14,32024.234375,1218.26171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7487289144334104,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,526,165
+2026-06-04 06:42:42,648.5161421988156,8.0,9.14,32024.234375,1219.0625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7246749506254115,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,528,163
+2026-06-04 06:42:44,650.2854582879245,8.0,9.14,32024.234375,1219.89453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6664131553456835,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,530,161
+2026-06-04 06:42:46,649.5153961136033,8.0,8.81,32024.234375,1219.76171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,532,159
+2026-06-04 06:42:48,555.0852071692623,8.0,8.81,32024.234375,1219.76171875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,534,157
+2026-06-04 06:42:50,651.0623140102368,8.0,9.38,32024.234375,1220.59375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,536,155
+2026-06-04 06:42:52,645.867140319717,8.0,9.38,32024.234375,1221.1875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,538,153
+2026-06-04 06:42:54,646.7148496446193,8.0,9.38,32024.234375,1221.4921875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,540,151
+2026-06-04 06:42:56,548.8732301710686,8.0,9.43,32024.234375,1222.0546875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,542,149
+2026-06-04 06:42:58,546.7299235199058,8.0,9.43,32024.234375,1222.0546875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,544,147
+2026-06-04 06:43:00,652.5316970865015,8.0,9.4,32024.234375,1222.67578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,546,145
+2026-06-04 06:43:02,652.060994408339,8.0,9.4,32024.234375,1222.9375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,548,143
+2026-06-04 06:43:04,650.624496914409,8.0,9.4,32024.234375,1224.0390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,550,141
+2026-06-04 06:43:06,502.049030913592,8.0,10.09,32024.234375,1224.58203125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,552,139
+2026-06-04 06:43:08,647.1474056603762,8.0,10.09,32024.234375,1224.93359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,554,137
+2026-06-04 06:43:10,556.2086219715292,8.0,9.68,32024.234375,1224.93359375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,556,135
+2026-06-04 06:43:12,652.2395242972594,8.0,9.68,32024.234375,1225.56640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6263692101968816,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,558,133
+2026-06-04 06:43:14,565.5964243570343,8.0,9.68,32024.234375,1225.56640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6744389155524387,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,560,131
+2026-06-04 06:43:16,651.805314009662,8.0,9.87,32024.234375,1226.64453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6330695019553716,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,562,129
+2026-06-04 06:43:18,540.8878549715399,8.0,9.87,32024.234375,1226.47265625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,564,127
+2026-06-04 06:43:20,653.8799115044235,8.0,10.12,32024.234375,1227.0390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,566,125
+2026-06-04 06:43:22,506.45915261830686,8.0,10.12,32024.234375,1227.62109375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,568,123
+2026-06-04 06:43:24,562.7640339118834,8.0,10.12,32024.234375,1227.62109375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,570,121
+2026-06-04 06:43:26,650.9543128654988,8.0,10.03,32024.234375,1227.9765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,572,119
+2026-06-04 06:43:28,651.8573479452068,8.0,10.03,32024.234375,1228.8125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,574,117
+2026-06-04 06:43:30,567.4547617456617,8.0,9.78,32024.234375,1228.8125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,576,115
+2026-06-04 06:43:32,526.4582734015596,8.0,9.78,32024.234375,1229.6640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,578,113
+2026-06-04 06:43:34,650.5665643125221,8.0,9.78,32024.234375,1229.7578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,580,111
+2026-06-04 06:43:36,567.5208678768097,8.0,9.48,32024.234375,1229.7578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,582,109
+2026-06-04 06:43:38,519.8238646355203,8.0,9.48,32024.234375,1230.3671875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,584,107
+2026-06-04 06:43:40,649.5796824638883,8.0,10.08,32024.234375,1231.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.969106141630357e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,586,105
+2026-06-04 06:43:42,535.708166045871,8.0,10.08,32024.234375,1231.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.049400570729619e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,588,103
+2026-06-04 06:43:44,505.94757515106596,8.0,10.08,32024.234375,1231.28125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,9.604845991223257e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7918871699241585,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,590,101
+2026-06-04 06:43:46,650.2058707277401,8.0,9.76,32024.234375,1232.37109375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.760660561315684e-06,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6398402987677285,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,592,99
+2026-06-04 06:43:48,650.4843073239721,8.0,9.76,32024.234375,1233.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.59896683534661,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,594,97
+2026-06-04 06:43:50,432.00986666666716,8.0,10.1,32024.234375,1233.1796875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,596,95
+2026-06-04 06:43:52,651.2933497248557,8.0,10.1,32024.234375,1233.7734375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,598,93
+2026-06-04 06:43:54,649.0266057252809,8.0,10.1,32024.234375,1233.58984375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,600,91
+2026-06-04 06:43:56,649.4157902689635,8.0,10.25,32024.234375,1234.875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,602,89
+2026-06-04 06:43:58,437.8189333333345,8.0,10.25,32024.234375,1234.703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,604,87
+2026-06-04 06:44:00,649.7534450418964,8.0,10.79,32024.234375,1235.0390625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,606,85
+2026-06-04 06:44:02,653.0931142241402,8.0,10.79,32024.234375,1235.8671875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,608,83
+2026-06-04 06:44:04,652.057407989937,8.0,10.79,32024.234375,1235.9375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,610,81
+2026-06-04 06:44:06,650.3825618600708,8.0,10.57,32024.234375,1236.49609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,612,79
+2026-06-04 06:44:08,540.0699962352378,8.0,10.57,32024.234375,1236.49609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,614,77
+2026-06-04 06:44:10,647.9346926852038,8.0,10.12,32024.234375,1237.34765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,616,75
+2026-06-04 06:44:12,652.1286124676822,8.0,10.12,32024.234375,1237.66015625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7905639543234703,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,618,73
+2026-06-04 06:44:14,652.3603085351785,8.0,10.12,32024.234375,1237.95703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7935274293540946,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,620,71
+2026-06-04 06:44:16,538.9509204321218,8.0,10.35,32024.234375,1238.05859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7143373819859106,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,622,69
+2026-06-04 06:44:18,651.7817863397562,8.0,10.35,32024.234375,1238.890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6024415772767076,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,624,67
+2026-06-04 06:44:20,652.1885443107808,8.0,10.8,32024.234375,1239.69921875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,626,65
+2026-06-04 06:44:22,561.3899820770154,8.0,10.8,32024.234375,1239.69921875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,628,63
+2026-06-04 06:44:24,652.9814535395443,8.0,10.8,32024.234375,1240.30078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,630,61
+2026-06-04 06:44:26,651.761364196008,8.0,10.9,32024.234375,1240.3671875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,632,59
+2026-06-04 06:44:28,650.631524970272,8.0,10.9,32024.234375,1240.6640625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,634,57
+2026-06-04 06:44:30,504.97000599249856,8.0,11.31,32024.234375,1241.49609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,636,55
+2026-06-04 06:44:32,568.3231511551301,8.0,11.31,32024.234375,1241.49609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,638,53
+2026-06-04 06:44:34,655.9590520975103,8.0,11.31,32024.234375,1241.87890625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,640,51
+2026-06-04 06:44:36,654.610565588842,8.0,10.8,32024.234375,1242.70703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,642,49
+2026-06-04 06:44:38,652.104777415856,8.0,10.8,32024.234375,1243.2578125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,644,47
+2026-06-04 06:44:40,503.67561893218885,8.0,10.02,32024.234375,1243.30859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,646,45
+2026-06-04 06:44:42,530.6458512539875,8.0,10.02,32024.234375,1243.30859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,648,43
+2026-06-04 06:44:44,652.5144327686106,8.0,10.02,32024.234375,1244.1953125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.5901679444563585,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,650,41
+2026-06-04 06:44:46,656.0388936693278,8.0,9.3,32024.234375,1244.515625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6765711432083589,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,652,39
+2026-06-04 06:44:48,561.3620952710023,8.0,9.3,32024.234375,1244.515625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7607959528304413,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,654,37
+2026-06-04 06:44:50,548.2224183061609,8.0,8.79,32024.234375,1245.609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,656,35
+2026-06-04 06:44:52,651.2213785675725,8.0,8.79,32024.234375,1245.953125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,658,33
+2026-06-04 06:44:54,650.2080773042584,8.0,8.79,32024.234375,1246.5078125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,660,31
+2026-06-04 06:44:56,508.16554692379106,8.0,9.29,32024.234375,1246.5625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,662,29
+2026-06-04 06:44:58,521.1294884676893,8.0,9.29,32024.234375,1246.5625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,664,27
+2026-06-04 06:45:00,646.1444928980895,8.0,9.75,32024.234375,1247.90625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,666,25
+2026-06-04 06:45:02,649.3159675444003,8.0,9.75,32024.234375,1247.9609375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,668,23
+2026-06-04 06:45:04,652.7373751615559,8.0,9.75,32024.234375,1248.5703125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,670,21
+2026-06-04 06:45:06,557.4650625220044,8.0,10.49,32024.234375,1248.64453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,672,19
+2026-06-04 06:45:08,551.1850559503363,8.0,10.49,32024.234375,1248.64453125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,674,17
+2026-06-04 06:45:10,657.1027689514277,8.0,10.13,32024.234375,1249.96875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,676,15
+2026-06-04 06:45:12,653.6999199084734,8.0,10.13,32024.234375,1249.79296875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,678,13
+2026-06-04 06:45:14,658.335284255448,8.0,10.13,32024.234375,1250.80859375,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,680,11
+2026-06-04 06:45:16,523.2993722039502,8.0,10.52,32024.234375,1250.9296875,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7332599897753694,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,682,9
+2026-06-04 06:45:18,652.0408709135567,8.0,10.52,32024.234375,1251.4765625,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7111908838351209,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,684,7
+2026-06-04 06:45:20,655.5236078965276,8.0,9.92,32024.234375,1252.01953125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.7493405377808033,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,686,5
+2026-06-04 06:45:22,649.8859695338394,8.0,9.92,32024.234375,1252.125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.6303866968273967,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,688,3
+2026-06-04 06:45:24,648.6635463169727,8.0,9.92,32024.234375,1252.8828125,Media Processing,linuxserver/ffmpeg:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,155.49,,,,3600.0,seconds,,0.0,0.0,,,,2026-06-04 06:33:54,2026-06-04 06:45:25,691.0,690,1

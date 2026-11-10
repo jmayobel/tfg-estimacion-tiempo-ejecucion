@@ -1,0 +1,165 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 01:29:29,,8.0,0.0,32024.234375,,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,0,163
+2026-06-04 01:29:31,,8.0,0.16,32024.234375,4.515625,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,2,161
+2026-06-04 01:29:33,45.2785,8.0,0.16,32024.234375,4.50390625,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.664825439453124e-05,8.0108642578125e-06,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,4,159
+2026-06-04 01:29:35,106.9052745259238,8.0,0.16,32024.234375,4.50390625,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.057605176284778e-05,1.4226684526603567e-05,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,6,157
+2026-06-04 01:29:37,146.9029276374184,8.0,0.31,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.814963329924689e-05,9.847921768420844e-06,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,8,155
+2026-06-04 01:29:39,186.87846514748546,8.0,0.31,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.718356636091635e-05,9.684313657897123e-06,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,10,153
+2026-06-04 01:29:41,199.98988935520796,8.0,0.44,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,1.9405810838738398e-05,5.094025345168829e-06,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,12,151
+2026-06-04 01:29:43,199.9695310842351,8.0,0.44,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.082240839002493e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,14,149
+2026-06-04 01:29:45,199.96399889227362,8.0,0.44,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,9.243589330993837e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,16,147
+2026-06-04 01:29:47,200.01609750211173,8.0,0.57,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.055653692341922e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,18,145
+2026-06-04 01:29:49,200.0133972310969,8.0,0.57,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.1093932000465936e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,20,143
+2026-06-04 01:29:51,199.9922274387063,8.0,0.68,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.705947072044534e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,22,141
+2026-06-04 01:29:53,200.0181045751634,8.0,0.68,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,24,139
+2026-06-04 01:29:55,199.99199488127402,8.0,0.68,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,26,137
+2026-06-04 01:29:57,199.9667035942885,8.0,0.79,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,28,135
+2026-06-04 01:29:59,200.01576269082793,8.0,0.79,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,30,133
+2026-06-04 01:30:01,199.96794677249915,8.0,0.89,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.792366306576105e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,32,131
+2026-06-04 01:30:03,199.96551990722838,8.0,0.89,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.601623778950843e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,34,129
+2026-06-04 01:30:05,199.99136020151136,8.0,0.89,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.4077080791483e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,36,127
+2026-06-04 01:30:07,199.99148665819573,8.0,0.97,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.48249074313056e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,38,125
+2026-06-04 01:30:09,200.01691157514813,8.0,0.97,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,40,123
+2026-06-04 01:30:11,199.99105330689375,8.0,1.06,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,42,121
+2026-06-04 01:30:13,200.01557993344025,8.0,1.06,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,44,119
+2026-06-04 01:30:15,199.99105275954287,8.0,1.06,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,46,117
+2026-06-04 01:30:17,199.9914535095164,8.0,1.13,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,48,115
+2026-06-04 01:30:19,200.01577592547187,8.0,1.13,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,50,113
+2026-06-04 01:30:21,199.99178555338642,8.0,1.2,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,52,111
+2026-06-04 01:30:23,199.99151451464593,8.0,1.2,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,54,109
+2026-06-04 01:30:25,199.99145631067964,8.0,1.2,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,56,107
+2026-06-04 01:30:27,172.9027378786367,8.0,1.27,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,58,105
+2026-06-04 01:30:29,199.99065951742628,8.0,1.27,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,60,103
+2026-06-04 01:30:31,199.99065420560746,8.0,1.33,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,62,101
+2026-06-04 01:30:33,199.99064695905034,8.0,1.33,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.087860691596499e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,64,99
+2026-06-04 01:30:35,144.06647923258097,8.0,1.33,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,1.0145470737815868e-05,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,66,97
+2026-06-04 01:30:37,199.965959040959,8.0,1.38,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.336313954600088e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,68,95
+2026-06-04 01:30:39,199.9659982882992,8.0,1.38,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.162024960073053e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,70,93
+2026-06-04 01:30:41,199.99045886632996,8.0,1.43,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,72,91
+2026-06-04 01:30:43,199.9906713269857,8.0,1.43,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,74,89
+2026-06-04 01:30:45,199.99049451332476,8.0,1.43,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,76,87
+2026-06-04 01:30:47,200.01670686809726,8.0,1.48,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,78,85
+2026-06-04 01:30:49,199.9643579971089,8.0,1.48,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,80,83
+2026-06-04 01:30:51,199.99073815271225,8.0,1.52,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,82,81
+2026-06-04 01:30:53,199.99103464150065,8.0,1.52,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,84,79
+2026-06-04 01:30:55,199.96568566061345,8.0,1.52,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,86,77
+2026-06-04 01:30:57,199.99113749999998,8.0,1.56,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,88,75
+2026-06-04 01:30:59,199.99005796784445,8.0,1.56,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,90,73
+2026-06-04 01:31:01,199.98985265855214,8.0,1.59,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,92,71
+2026-06-04 01:31:03,200.01733571624968,8.0,1.59,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,94,69
+2026-06-04 01:31:05,199.9901410014434,8.0,1.59,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,96,67
+2026-06-04 01:31:07,199.99115500754903,8.0,1.63,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,98,65
+2026-06-04 01:31:09,199.99087866108803,8.0,1.63,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,100,63
+2026-06-04 01:31:11,199.99069821119446,8.0,1.66,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,102,61
+2026-06-04 01:31:13,200.01896455484228,8.0,1.66,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,104,59
+2026-06-04 01:31:15,200.0162063311893,8.0,1.66,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,106,57
+2026-06-04 01:31:17,200.0190410581427,8.0,1.68,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,108,55
+2026-06-04 01:31:19,199.99109147360875,8.0,1.68,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,110,53
+2026-06-04 01:31:21,199.96714148910698,8.0,1.71,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,112,51
+2026-06-04 01:31:23,199.9914590213149,8.0,1.71,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,114,49
+2026-06-04 01:31:25,199.9909795918369,8.0,1.71,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,116,47
+2026-06-04 01:31:27,199.99123341044705,8.0,1.73,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,118,45
+2026-06-04 01:31:29,200.01640902179406,8.0,1.73,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,120,43
+2026-06-04 01:31:31,199.96687867514703,8.0,1.75,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,122,41
+2026-06-04 01:31:33,199.9907903549897,8.0,1.75,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,124,39
+2026-06-04 01:31:35,199.96334866861832,8.0,1.75,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,126,37
+2026-06-04 01:31:37,199.99092211513405,8.0,1.77,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.694608250643071e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,128,35
+2026-06-04 01:31:39,199.9905407116626,8.0,1.77,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.453488938639674e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,130,33
+2026-06-04 01:31:41,199.99083362978783,8.0,1.79,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.916186665295566e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,132,31
+2026-06-04 01:31:43,199.99007759228778,8.0,1.79,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.848248547900011e-06,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,134,29
+2026-06-04 01:31:45,199.99049474554255,8.0,1.79,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,136,27
+2026-06-04 01:31:47,199.99078069394983,8.0,1.81,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,138,25
+2026-06-04 01:31:49,199.9906942392913,8.0,1.81,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,140,23
+2026-06-04 01:31:51,199.99142150481634,8.0,1.83,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,142,21
+2026-06-04 01:31:53,199.99118295371042,8.0,1.83,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,144,19
+2026-06-04 01:31:55,200.01617483639987,8.0,1.83,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,146,17
+2026-06-04 01:31:57,199.99148197596767,8.0,1.84,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,148,15
+2026-06-04 01:31:59,199.99141127993843,8.0,1.84,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,150,13
+2026-06-04 01:32:01,199.96373399421742,8.0,1.85,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,152,11
+2026-06-04 01:32:03,199.99105407425884,8.0,1.85,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,154,9
+2026-06-04 01:32:05,199.9914719471949,8.0,1.85,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,156,7
+2026-06-04 01:32:07,200.01894177008066,8.0,1.86,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,158,5
+2026-06-04 01:32:09,200.01553899771696,8.0,1.86,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,160,3
+2026-06-04 01:32:11,199.96204020848793,8.0,1.88,32024.234375,4.49609375,Stress Test,alexeiled/stress-ng:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,1.29,,,,5000.0,ops,,,,,,,2026-06-04 01:29:29,2026-06-04 01:32:12,163.0,162,1

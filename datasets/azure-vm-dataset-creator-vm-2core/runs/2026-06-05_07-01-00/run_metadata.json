@@ -1,0 +1,21 @@
+{
+  "run_id": "2026-06-05_07-01-00",
+  "workload_scale": "large",
+  "hostname_label": "azure-vm-dataset-creator-vm-2core",
+  "sample_interval_s": 2,
+  "workload_values": {
+    "ollama_requests": 40,
+    "busqueda_requests": 1500,
+    "iperf_bytes": "400G",
+    "sysbench_events": 300000,
+    "network_ping_count": 130,
+    "pytorch_gpu_epochs": 120,
+    "stressng_ops": 5000,
+    "ffmpeg_video_length": 1800,
+    "k6_iterations": 600,
+    "fio_size": "6G",
+    "zip_rounds": 3,
+    "build_rounds": 15,
+    "redis_requests": 5000000
+  }
+}

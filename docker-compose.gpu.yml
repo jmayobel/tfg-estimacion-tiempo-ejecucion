@@ -1,0 +1,25 @@
+# NVIDIA GPU monitoring - Windows WSL2 only
+# Requires NVIDIA Container Toolkit installed in WSL2
+# Install: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+
+services:
+  dcgm-exporter:
+    image: nvidia/dcgm-exporter:3.3.5-3.4.0-ubuntu22.04
+    container_name: ds-dcgm-exporter
+    ports:
+      - "9400:9400"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+    name: ds-monitoring
+    external: true

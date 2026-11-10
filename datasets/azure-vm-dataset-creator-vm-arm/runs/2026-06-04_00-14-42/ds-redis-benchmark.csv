@@ -1,0 +1,13 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 00:34:05,,8.0,1.24,32024.234375,,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,51.64,,,,1000000.0,requests,,,,,,,2026-06-04 00:34:05,2026-06-04 00:34:15,10.0,0,10
+2026-06-04 00:34:07,,8.0,1.38,32024.234375,3.2265625,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,51.64,,,,1000000.0,requests,,,,,,,2026-06-04 00:34:05,2026-06-04 00:34:15,10.0,2,8
+2026-06-04 00:34:09,26.71945686900959,8.0,1.38,32024.234375,3.1796875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,20.300451117201735,52.90130082029885,azure-vm-dataset-creator-vm-arm,51.64,,,,1000000.0,requests,,,,,,,2026-06-04 00:34:05,2026-06-04 00:34:15,10.0,4,6
+2026-06-04 00:34:11,40.453000086860385,8.0,1.43,32024.234375,3.27734375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,27.583966150813964,101.7273454708309,azure-vm-dataset-creator-vm-arm,51.64,,,,1000000.0,requests,,,,,,,2026-06-04 00:34:05,2026-06-04 00:34:15,10.0,6,4
+2026-06-04 00:34:13,43.082573333333336,8.0,1.43,32024.234375,3.2578125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,60.222435506184894,88.15058797200521,azure-vm-dataset-creator-vm-arm,51.64,,,,1000000.0,requests,,,,,,,2026-06-04 00:34:05,2026-06-04 00:34:15,10.0,8,2
+2026-06-04 00:34:15,43.082573333333336,8.0,1.43,32024.234375,3.2578125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,60.222435506184894,88.15058797200521,azure-vm-dataset-creator-vm-arm,51.64,,,,1000000.0,requests,,,,,,,2026-06-04 00:34:05,2026-06-04 00:34:15,10.0,10,0

@@ -1,0 +1,15 @@
+# Development dependencies for testing and code quality
+# Include base requirements
+-r scripts/requirements.txt
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+requests-mock==1.11.0
+types-requests==2.31.0.20240218
+
+# Code quality (optional but recommended)
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1

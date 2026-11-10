@@ -1,0 +1,27 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 00:41:24,,8.0,6.35,32024.234375,,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,0,24
+2026-06-04 00:41:26,,8.0,6.35,32024.234375,,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,2,22
+2026-06-04 00:41:28,27.92809274140752,8.0,5.92,32024.234375,1.48046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,2.0835328476713837,1806.8393819212715,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,4,20
+2026-06-04 00:41:30,48.22048274953668,8.0,5.92,32024.234375,1.41796875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,3.588093666743753,3133.906595355265,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,6,18
+2026-06-04 00:41:32,68.06812571898357,8.0,5.53,32024.234375,1.48046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.102811109539996,4421.161642512408,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,8,16
+2026-06-04 00:41:34,74.32946666666668,8.0,5.53,32024.234375,1.48046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.572200266520182,4827.848327891032,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,10,14
+2026-06-04 00:41:36,99.9822960575254,8.0,5.53,32024.234375,1.484375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.542535681125101,6514.001322537475,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,12,12
+2026-06-04 00:41:38,99.99410536460005,8.0,5.25,32024.234375,1.171875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.569990700324402,6525.482458352965,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,14,10
+2026-06-04 00:41:40,99.98202418841502,8.0,5.25,32024.234375,1.234375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.516930165524546,6526.887705491501,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,16,8
+2026-06-04 00:41:42,87.30576038220894,8.0,4.91,32024.234375,1.16796875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.5110885949077755,5689.84065828051,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,18,6
+2026-06-04 00:41:44,84.58589246055496,8.0,4.91,32024.234375,1.16796875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.308246297597625,5512.582994891172,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,20,4
+2026-06-04 00:41:46,99.99477323571286,8.0,4.91,32024.234375,1.421875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.562048871123938,6541.61891041186,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,22,2
+2026-06-04 00:41:48,99.9947448015123,8.0,4.67,32024.234375,1.421875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.596268440539835,6565.005971984286,azure-vm-dataset-creator-vm-arm,29.38,,,,150.0,GB_transfer,,,,,,,2026-06-04 00:41:24,2026-06-04 00:41:48,24.0,24,0

@@ -1,0 +1,72 @@
+# Monitoring stack - runs on both Windows (WSL2) and macOS
+# Collects container and host metrics via Prometheus
+
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: ds-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.retention.time=7d"
+      - "--storage.tsdb.retention.size=5GB"
+      - "--web.enable-lifecycle"
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: ds-cadvisor
+    ports:
+      - "8080:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    privileged: true
+    devices:
+      - /dev/kmsg
+    command:
+      # Expose Docker container labels (name, compose service, etc.) as Prometheus labels
+      - "--store_container_labels=true"
+      # Note: --docker_only=true is intentionally NOT used here.
+      # On Docker Desktop (WSL2/Windows/macOS), cAdvisor's Docker container factory
+      # fails to register because the containerd socket is not accessible.
+      # Without --docker_only, the systemd/raw factories discover containers
+      # via cgroup paths (/docker/{id}), which works on all platforms.
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: ds-node-exporter
+    ports:
+      - "9100:9100"
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - "--path.procfs=/host/proc"
+      - "--path.sysfs=/host/sys"
+      - "--path.rootfs=/rootfs"
+      - "--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)"
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+volumes:
+  prometheus_data:
+
+networks:
+  monitoring:
+    name: ds-monitoring
+    driver: bridge

@@ -1,0 +1,65 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 01:21:03,,8.0,6.21,32024.234375,,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,0,63
+2026-06-04 01:21:05,,8.0,6.21,32024.234375,1.109375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,2,61
+2026-06-04 01:21:07,38.00076263517713,8.0,5.87,32024.234375,1.48046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,2.928327276337732,2511.2286870740677,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,4,59
+2026-06-04 01:21:09,57.98304510906229,8.0,5.87,32024.234375,1.48046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,4.464563234988454,3834.547498084906,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,6,57
+2026-06-04 01:21:11,77.99442844221106,8.0,5.48,32024.234375,1.23046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.027994123871004,5152.454619633086,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,8,55
+2026-06-04 01:21:13,97.99351851764148,8.0,5.48,32024.234375,1.23046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.582816886088873,6482.582757847551,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,10,53
+2026-06-04 01:21:15,99.99045736127586,8.0,5.48,32024.234375,1.234375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.815744277594101,6626.674747127655,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,12,51
+2026-06-04 01:21:17,100.00800561797756,8.0,5.2,32024.234375,1.29296875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.867649943397531,6631.610933679848,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,14,49
+2026-06-04 01:21:19,99.98360422351405,8.0,5.2,32024.234375,1.484375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.892828817002105,6630.536900704859,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,16,47
+2026-06-04 01:21:21,99.97751646284104,8.0,4.86,32024.234375,1.48046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.857488442005578,6608.185324484968,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,18,45
+2026-06-04 01:21:23,99.98757199539232,8.0,4.86,32024.234375,1.23828125,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.820943063159583,6586.368989474518,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,20,43
+2026-06-04 01:21:25,99.9744967978042,8.0,4.86,32024.234375,1.421875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.782484126112817,6558.145857904336,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,22,41
+2026-06-04 01:21:27,99.9825912094226,8.0,4.55,32024.234375,1.484375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.758247410555881,6542.688888915823,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,24,39
+2026-06-04 01:21:29,99.98908966461326,8.0,4.55,32024.234375,1.234375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.791971915556421,6558.266140091184,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,26,37
+2026-06-04 01:21:31,99.99008498583565,8.0,4.35,32024.234375,1.484375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.758705975892618,6562.550356525423,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,28,35
+2026-06-04 01:21:33,100.00207136015324,8.0,4.35,32024.234375,1.55078125,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.74941910272357,6579.952207561652,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,30,33
+2026-06-04 01:21:35,99.98189990281827,8.0,4.35,32024.234375,1.4921875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.699576480743143,6546.278495019334,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,32,31
+2026-06-04 01:21:37,99.99269132511388,8.0,4.08,32024.234375,1.55078125,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.686717952739712,6490.3093363647395,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,34,29
+2026-06-04 01:21:39,99.98133096531548,8.0,4.08,32024.234375,1.42578125,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.671660675546188,6457.288020532896,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,36,27
+2026-06-04 01:21:41,86.02589270472058,8.0,3.83,32024.234375,1.42578125,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.568181977091344,5503.184600047186,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,38,25
+2026-06-04 01:21:43,99.98886411495106,8.0,3.83,32024.234375,1.42578125,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.671742963182516,6404.292841050965,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,40,23
+2026-06-04 01:21:45,99.98926468746086,8.0,3.83,32024.234375,1.2421875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.714308937375711,6418.110684883798,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,42,21
+2026-06-04 01:21:47,99.9891762452107,8.0,3.69,32024.234375,1.49609375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.753518806106742,6440.096947425169,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,44,19
+2026-06-04 01:21:49,80.86552329450063,8.0,3.69,32024.234375,1.24609375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.28609410170437,5228.080770769044,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,46,17
+2026-06-04 01:21:51,99.97587000677046,8.0,3.47,32024.234375,1.49609375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.784790369652377,6472.371997975301,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,48,15
+2026-06-04 01:21:53,99.9607649143532,8.0,3.47,32024.234375,1.49609375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.776918597145328,6491.295255716214,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,50,13
+2026-06-04 01:21:55,99.99059291581108,8.0,3.47,32024.234375,1.25,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.748767091018709,6457.000367205736,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,52,11
+2026-06-04 01:21:57,99.9981890660592,8.0,3.35,32024.234375,1.25,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.683958170897325,6441.092996879699,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,54,9
+2026-06-04 01:21:59,99.9978453163983,8.0,3.35,32024.234375,1.5,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.626590395655106,6434.894031612044,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,56,7
+2026-06-04 01:22:01,99.98669944830898,8.0,3.16,32024.234375,1.50390625,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.5646352642129795,6428.155883721352,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,58,5
+2026-06-04 01:22:03,99.98678023032632,8.0,3.16,32024.234375,1.1875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.4925063438928055,6422.211718879597,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,60,3
+2026-06-04 01:22:05,99.98669878814428,8.0,3.16,32024.234375,1.50390625,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.501268825455814,6425.938646224907,azure-vm-dataset-creator-vm-arm,29.38,,,,400.0,GB_transfer,,,,,,,2026-06-04 01:21:03,2026-06-04 01:22:06,63.0,62,1

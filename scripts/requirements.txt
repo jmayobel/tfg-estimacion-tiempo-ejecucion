@@ -1,0 +1,5 @@
+# Core dependencies with pinned versions for reproducibility
+# Updated: 2026-02-12
+requests==2.31.0
+pandas>=2.2.2
+PyYAML>=6.0

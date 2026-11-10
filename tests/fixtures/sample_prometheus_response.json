@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "matrix",
+    "result": [
+      {
+        "metric": {
+          "name": "test-container"
+        },
+        "values": [
+          [1609459200, "42.5"],
+          [1609459202, "43.0"],
+          [1609459204, "44.2"],
+          [1609459206, "43.8"]
+        ]
+      }
+    ]
+  }
+}

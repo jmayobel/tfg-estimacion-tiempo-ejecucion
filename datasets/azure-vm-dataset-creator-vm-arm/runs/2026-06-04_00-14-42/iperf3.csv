@@ -1,0 +1,11 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 00:18:51,,8.0,5.33,32024.234375,,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,29.38,,,,50.0,GB_transfer,,,,,,,2026-06-04 00:18:51,2026-06-04 00:19:00,9.0,0,9
+2026-06-04 00:18:53,,8.0,5.33,32024.234375,1.234375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,29.38,,,,50.0,GB_transfer,,,,,,,2026-06-04 00:18:51,2026-06-04 00:19:00,9.0,2,7
+2026-06-04 00:18:55,32.57079737931035,8.0,5.06,32024.234375,1.48046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,2.4534026461634144,2100.1211599165817,azure-vm-dataset-creator-vm-arm,29.38,,,,50.0,GB_transfer,,,,,,,2026-06-04 00:18:51,2026-06-04 00:19:00,9.0,4,5
+2026-06-04 00:18:57,52.569742937542905,8.0,5.06,32024.234375,1.23046875,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,3.9839915305028324,3395.7664692466797,azure-vm-dataset-creator-vm-arm,29.38,,,,50.0,GB_transfer,,,,,,,2026-06-04 00:18:51,2026-06-04 00:19:00,9.0,6,3
+2026-06-04 00:18:59,72.56932636833788,8.0,5.06,32024.234375,1.234375,Network Benchmark,networkstatic/iperf3:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.533583073176933,4688.400169745247,azure-vm-dataset-creator-vm-arm,29.38,,,,50.0,GB_transfer,,,,,,,2026-06-04 00:18:51,2026-06-04 00:19:00,9.0,8,1

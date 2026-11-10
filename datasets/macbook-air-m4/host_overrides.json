@@ -1,0 +1,15 @@
+{
+  "_doc": "Correcciones por máquina que build_ml_dataset.py aplica al regenerar ml_dataset.csv. 'calibration' solo rellena las ejecuciones cuyo hw_profile.json no tiene calibración; 'hw' sustituye valores de hardware.",
+  "calibration": {
+    "_source": "Mediana de las calibraciones medidas en contenedor en las 8 ejecuciones de esta máquina que la registraron (de 16). Las anteriores se hicieron antes de que existiera la calibración.",
+    "calib_gflops_st": 53.709,
+    "calib_gflops_mt": 168.887,
+    "calib_mem_gbps": 40.173,
+    "calib_pyloop_mops": 28.748,
+    "calib_parallel_speedup": 3.142
+  },
+  "hw": {
+    "_source": "Memoria de la máquina virtual de Docker Desktop (Settings > Resources > Memory limit = 8 GB, sin cambios desde el primer barrido). hw_profile.json registró los 24 GB del macOS, pero los contenedores solo pueden usar los de la máquina virtual; en Linux y WSL2 ya se registra la memoria visible para los contenedores.",
+    "ram_gb": 8.0
+  }
+}

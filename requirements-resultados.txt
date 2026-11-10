@@ -1,0 +1,11 @@
+# Versiones exactas con las que se obtuvieron las cifras de la memoria (Python 3.14).
+# Los modelos log-lineales no dependen de ellas, pero Random Forest y
+# HistGradientBoosting pueden variar unas décimas entre versiones de scikit-learn.
+# Requiere Python >= 3.11; la integración continua (3.10) usa scripts/requirements.txt.
+-r scripts/requirements.txt
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.3
+scikit-learn==1.9.0
+joblib==1.5.3
+matplotlib==3.11.0

@@ -1,0 +1,27 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 04:54:58,,8.0,0.81,32024.234375,,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,0,24
+2026-06-04 04:55:00,,8.0,0.81,32024.234375,2.86328125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,2,22
+2026-06-04 04:55:02,28.73172608695652,8.0,0.81,32024.234375,3.16015625,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,22.989778071241417,90.85367588111063,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,4,20
+2026-06-04 04:55:04,44.807518902953596,8.0,0.9,32024.234375,3.265625,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,72.85328828755311,92.96090786809158,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,6,18
+2026-06-04 04:55:06,62.070271515761235,8.0,0.9,32024.234375,3.35546875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,83.51310727473157,115.3134498787438,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,8,16
+2026-06-04 04:55:08,75.47255515513676,8.0,0.91,32024.234375,3.078125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,78.0417467103501,177.05539846209874,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,10,14
+2026-06-04 04:55:10,78.72374828318142,8.0,0.91,32024.234375,3.203125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,73.88701922945025,183.67996411103854,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,12,12
+2026-06-04 04:55:12,74.4366883566385,8.0,0.91,32024.234375,3.1640625,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,44.17707093878002,207.91601339205798,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,14,10
+2026-06-04 04:55:14,67.4286376274328,8.0,0.92,32024.234375,3.15234375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,101.06783746236779,170.53360028660222,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,16,8
+2026-06-04 04:55:16,63.73759244042729,8.0,0.92,32024.234375,3.1640625,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,157.6347189124595,107.7624521853662,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,18,6
+2026-06-04 04:55:18,54.43748369720428,8.0,1.01,32024.234375,3.453125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,173.96743749628638,43.304789992538446,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,20,4
+2026-06-04 04:55:20,70.3863993235898,8.0,1.01,32024.234375,3.3984375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,134.0989890284607,109.77706167343403,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,22,2
+2026-06-04 04:55:22,62.37133186149486,8.0,1.01,32024.234375,3.3984375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,76.80612513670211,120.16370172710062,azure-vm-dataset-creator-vm-arm,51.64,,,,2500000.0,requests,,,,,,,2026-06-04 04:54:58,2026-06-04 04:55:22,24.0,24,0

@@ -1,0 +1,25 @@
+services:
+  orchestrator:
+    build:
+      context: .
+      dockerfile: Dockerfile.orchestrator
+    container_name: ds-orchestrator
+    volumes:
+      # Mount the Docker socket so the container can control the host's Docker daemon
+      - /var/run/docker.sock:/var/run/docker.sock
+      # Mount the entire project directory so relative paths in other compose files work
+      # We must mount it to the exact same path as the host so Docker daemon can find the files
+      - ${PWD:-.}:${PWD:-/app}
+    working_dir: ${PWD:-/app}
+    environment:
+      - HOSTNAME_LABEL=${HOSTNAME_LABEL:-docker-runner}
+      # Pass the host OS type (macOS, linux, wsl2)
+      - HOST_OS=${HOST_OS:-linux}
+      # Use localhost to reach Prometheus since we are using network_mode: "host"
+      - PROMETHEUS_URL=${PROMETHEUS_URL:-http://localhost:9090}
+      # Pass busqueda caminos config
+      - BUSQUEDA_INSTANCE_FILE=${BUSQUEDA_INSTANCE_FILE:-}
+      - BUSQUEDA_URL=${BUSQUEDA_URL:-http://localhost:5005/process}
+    network_mode: "host"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

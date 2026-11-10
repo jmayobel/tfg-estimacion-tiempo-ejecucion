@@ -1,0 +1,45 @@
+# ============================================================================
+# Remote Hosts Configuration for Dataset Creator
+# ============================================================================
+# Lists all remote machines for distributed dataset collection
+# Format: hostname,ssh_user,ip_address,description
+#
+# - hostname: Identifier used in dataset (matches HOSTNAME_LABEL in .env)
+# - ssh_user: SSH username for connection
+# - ip_address: IP address or hostname
+# - description: Human-readable description
+#
+# Lines starting with # are comments and will be ignored
+# ============================================================================
+
+# Example configurations (uncomment and customize):
+
+# Azure VMs
+#azure-cpu-01,azureuser,20.123.45.67,Azure D4s_v3 CPU-only VM
+#azure-gpu-01,azureuser,20.123.45.68,Azure NC6 with Tesla K80
+
+# Local machines (if accessible via network)
+#windows-rtx3060,user,192.168.1.100,Local Windows WSL2 with RTX 3060
+#macos-m4-pro,user,192.168.1.101,Local macOS M4 Pro
+
+# ============================================================================
+# Usage Notes
+# ============================================================================
+#
+# 1. SSH Access:
+#    - Ensure SSH key-based authentication is set up for all hosts
+#    - Test connection: ssh <ssh_user>@<ip_address>
+#
+# 2. Repository Setup:
+#    - Dataset creator must be installed at ~/dataset-creator on each host
+#    - Run setup-vm.sh on remote VMs before adding them here
+#
+# 3. Hostname Labels:
+#    - Must match the HOSTNAME_LABEL in each machine's .env file
+#    - Use descriptive names (e.g., azure-cpu-01, windows-rtx3060)
+#
+# 4. Scripts Using This File:
+#    - scripts/collect_remote.sh - Triggers dataset collection
+#    - scripts/download_datasets.sh - Downloads CSV results
+#
+# ============================================================================

@@ -1,0 +1,47 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 05:55:31,,8.0,1.89,32024.234375,,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,0,45
+2026-06-04 05:55:33,,8.0,1.89,32024.234375,3.05078125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,2,43
+2026-06-04 05:55:35,29.50234291883455,8.0,1.98,32024.234375,3.02734375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,4.906802914269137,112.62248550061753,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,4,41
+2026-06-04 05:55:37,45.323638581343694,8.0,1.98,32024.234375,3.15234375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,58.46570468581696,120.60021052969488,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,6,39
+2026-06-04 05:55:39,61.32126016750139,8.0,1.98,32024.234375,3.22265625,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,127.22847856973766,117.34467342773674,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,8,37
+2026-06-04 05:55:41,86.53303272352487,8.0,1.98,32024.234375,3.01171875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,142.59453299524117,141.6103170877018,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,10,35
+2026-06-04 05:55:43,83.93586545199719,8.0,1.98,32024.234375,3.3671875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,158.77537239602668,65.82641414436495,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,12,33
+2026-06-04 05:55:45,66.08594692545067,8.0,2.06,32024.234375,3.3671875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,126.54986925309272,44.59775201697835,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,14,31
+2026-06-04 05:55:47,79.74898679565955,8.0,2.06,32024.234375,2.95703125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,28.7344794535827,167.69103490226266,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,16,29
+2026-06-04 05:55:49,77.46469950620256,8.0,1.98,32024.234375,3.16796875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,17.414819845360153,223.66617352764644,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,18,27
+2026-06-04 05:55:51,76.41815675934804,8.0,1.98,32024.234375,3.05078125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,17.22016179093007,259.95874016305515,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,20,25
+2026-06-04 05:55:53,68.83603955019399,8.0,1.98,32024.234375,2.9375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,15.611188989777771,252.4348490232244,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,22,23
+2026-06-04 05:55:55,74.28115686058064,8.0,2.06,32024.234375,3.33203125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,47.631139720508706,245.20212483598192,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,24,21
+2026-06-04 05:55:57,67.1297776635394,8.0,2.06,32024.234375,3.21875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,121.95946554064582,153.30033179129813,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,26,19
+2026-06-04 05:55:59,62.90801366263792,8.0,1.97,32024.234375,3.1328125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,154.85316543158143,109.41304323614365,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,28,17
+2026-06-04 05:56:01,57.36823242867083,8.0,1.97,32024.234375,3.1171875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,210.38619229257642,42.313028670496564,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,30,15
+2026-06-04 05:56:03,56.621991341991354,8.0,1.97,32024.234375,3.12890625,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,224.39876572910322,28.66648200417862,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,32,13
+2026-06-04 05:56:05,57.80491875274485,8.0,2.06,32024.234375,3.1328125,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,228.98399538429112,29.251749214325372,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,34,11
+2026-06-04 05:56:07,65.93829588014981,8.0,2.06,32024.234375,3.33984375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,169.48616906498256,43.25965325930592,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,36,9
+2026-06-04 05:56:09,73.85478811227298,8.0,2.05,32024.234375,3.48046875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,109.9188483935762,81.50438273025203,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,38,7
+2026-06-04 05:56:11,79.9010957844527,8.0,2.05,32024.234375,3.1796875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,66.83142744297677,154.45309243467153,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,40,5
+2026-06-04 05:56:13,67.38495906862742,8.0,2.05,32024.234375,3.1796875,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,23.02676488745447,145.53478379904058,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,42,3
+2026-06-04 05:56:15,82.72326334733053,8.0,2.13,32024.234375,3.58984375,Memory Benchmark,redis:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,11.94213404938641,221.28192075513118,azure-vm-dataset-creator-vm-arm,51.64,,,,5000000.0,requests,,,,,,,2026-06-04 05:55:31,2026-06-04 05:56:16,45.0,44,1

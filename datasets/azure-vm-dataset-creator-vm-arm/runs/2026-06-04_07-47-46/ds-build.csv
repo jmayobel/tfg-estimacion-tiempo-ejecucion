@@ -1,0 +1,41 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 08:04:18,,8.0,1.01,32024.234375,,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,,,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,0,39
+2026-06-04 08:04:20,,8.0,1.01,32024.234375,11.01171875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,,,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,2,37
+2026-06-04 08:04:22,37.62140990566037,8.0,1.01,32024.234375,88.88671875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,4.835848538380748e-05,8.124225544479657e-06,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.11805350825471697,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,4,35
+2026-06-04 08:04:24,43.030635000000004,8.0,1.01,32024.234375,116.13671875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,3.5762786865234375e-05,6.008148193359375e-06,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.08730468749999999,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,6,33
+2026-06-04 08:04:26,79.07233043478261,8.0,1.01,32024.234375,113.0546875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,3.747564912089156e-05,4.918678947117018e-06,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.32522867333074534,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,8,31
+2026-06-04 08:04:28,99.7901018743616,8.0,1.01,32024.234375,62.828125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,3.8965242754085805e-05,5.114188111473762e-06,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.39950284090909094,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,10,29
+2026-06-04 08:04:30,99.9874659400545,8.0,1.01,32024.234375,113.62890625,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.661892065451863e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.33046256649798883,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,12,27
+2026-06-04 08:04:32,99.97910496515681,8.0,1.01,32024.234375,1.390625,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.268859118950076e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.39385752395470386,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,14,25
+2026-06-04 08:04:34,99.99661948605197,8.0,1.01,32024.234375,51.0234375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,9.173725731542876e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.5083439260684348,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,16,23
+2026-06-04 08:04:36,100.00834012813047,8.0,1.01,32024.234375,128.484375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.776028205991555e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.37492719860221313,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,18,21
+2026-06-04 08:04:38,99.98331259333001,8.0,1.01,32024.234375,52.8828125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.307267564514373e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.6576849489795918,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,20,19
+2026-06-04 08:04:40,100.00860045792788,8.0,1.01,32024.234375,110.95703125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,9.553119941104393e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.6031545148826559,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,22,17
+2026-06-04 08:04:42,99.99048236820381,8.0,1.01,32024.234375,104.109375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.3003744545347329,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,24,15
+2026-06-04 08:04:44,99.97696839080457,8.0,1.01,32024.234375,51.35546875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.46695402298850575,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,26,13
+2026-06-04 08:04:46,100.00368496315039,8.0,1.01,32024.234375,51.4375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.40690999340006606,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,28,11
+2026-06-04 08:04:48,88.0937795502092,8.0,1.01,32024.234375,51.4375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.4261260092507846,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,30,9
+2026-06-04 08:04:50,99.9957052988144,8.0,1.01,32024.234375,50.1640625,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.076119301770808e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.6663213767239292,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,32,7
+2026-06-04 08:04:52,100.00608177757422,8.0,1.01,32024.234375,110.04296875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.64599726817518e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.5503020845264002,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,34,5
+2026-06-04 08:04:54,99.9949740634006,8.0,1.01,32024.234375,52.828125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.69535471451729e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.5669128242074928,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,36,3
+2026-06-04 08:04:56,71.72031245899362,8.0,1.01,32024.234375,98.84375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.07185325336217681,,,,2026-06-04 08:04:18,2026-06-04 08:04:57,39.0,38,1

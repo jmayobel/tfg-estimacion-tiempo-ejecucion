@@ -1,0 +1,11 @@
+{
+  "_doc": "Correcciones por máquina que build_ml_dataset.py aplica al regenerar ml_dataset.csv. 'calibration' solo rellena las ejecuciones cuyo hw_profile.json no tiene calibración; 'hw' sustituye valores de hardware.",
+  "calibration": {
+    "_source": "Calibración medida en esta máquina después de los barridos y asignada a todas sus ejecuciones con scripts/backfill_calibration.py. Se guarda aquí para que regenerar el CSV no la pierda.",
+    "calib_gflops_st": 46.322,
+    "calib_gflops_mt": 89.309,
+    "calib_mem_gbps": 14.041,
+    "calib_pyloop_mops": 9.905,
+    "calib_parallel_speedup": 1.928
+  }
+}

@@ -1,0 +1,137 @@
+# Static per-service metadata used to enrich the ML dataset.
+#
+# Why this file exists
+# --------------------
+# If the model only sees `service_key` (e.g. "stress-ng") as a
+# categorical feature, it can only predict execution time for
+# services it has seen before — it cannot generalize to a new
+# service. By describing each service in terms of how it stresses
+# the hardware, the model can interpolate over the SEMANTIC space
+# of services and produce a useful prediction for an unseen
+# service whose profile is provided.
+#
+# Fields
+# ------
+#   resource_profile     : primary bottleneck (cpu | gpu | memory | disk | network | mixed)
+#   secondary_profile    : (optional) significant secondary bottleneck
+#   parallelism          : single | multi_thread | multi_process | distributed
+#   workload_kind        : count | bytes | duration | iterations | ops
+#   gpu_kind             : none | required | optional
+#   is_network_bound     : true if performance depends on network conditions
+#                          rather than local hardware (these should be
+#                          excluded from cross-hardware comparison)
+#   notes                : free-text comment
+
+services:
+
+  stress-ng:
+    resource_profile: cpu
+    secondary_profile: memory
+    parallelism: multi_thread
+    workload_kind: ops
+    gpu_kind: none
+    is_network_bound: false
+    notes: Synthetic CPU stress; scales linearly with cores.
+
+  sysbench:
+    resource_profile: cpu
+    parallelism: multi_thread
+    workload_kind: count
+    gpu_kind: none
+    is_network_bound: false
+    notes: Prime-number CPU benchmark, FP/integer mix.
+
+  ds-7zip:
+    resource_profile: cpu
+    secondary_profile: memory
+    parallelism: multi_thread
+    workload_kind: iterations
+    gpu_kind: none
+    is_network_bound: false
+    notes: LZMA compression; cache and memory bandwidth sensitive.
+
+  ds-build:
+    resource_profile: cpu
+    secondary_profile: disk
+    parallelism: multi_process
+    workload_kind: iterations
+    gpu_kind: none
+    is_network_bound: false
+    notes: Source compilation; parallel make jobs.
+
+  ffmpeg:
+    resource_profile: cpu
+    secondary_profile: gpu
+    parallelism: multi_thread
+    workload_kind: duration
+    gpu_kind: optional
+    is_network_bound: false
+    notes: Video transcode; falls back to CPU when no NVIDIA GPU is present.
+
+  ds-fio:
+    resource_profile: disk
+    parallelism: single
+    workload_kind: bytes
+    gpu_kind: none
+    is_network_bound: false
+    notes: Sequential / random disk I/O; first run may be cold (filesystem cache).
+
+  ds-redis-benchmark:
+    resource_profile: memory
+    secondary_profile: cpu
+    parallelism: multi_thread
+    workload_kind: count
+    gpu_kind: none
+    is_network_bound: false
+    notes: Memory throughput via Redis op/s; lightly cpu-bound.
+
+  pytorch-gpu:
+    resource_profile: gpu
+    secondary_profile: memory
+    parallelism: single
+    workload_kind: iterations
+    gpu_kind: required
+    is_network_bound: false
+    notes: Image-classification training step; throughput depends on TFLOPS and VRAM bandwidth.
+
+  ollama:
+    resource_profile: gpu
+    secondary_profile: cpu
+    parallelism: single
+    workload_kind: count
+    gpu_kind: optional
+    is_network_bound: false
+    notes: LLM inference; runs on GPU when available, otherwise CPU (much slower).
+
+  busqueda-caminos:
+    resource_profile: cpu
+    parallelism: single
+    workload_kind: count
+    gpu_kind: none
+    is_network_bound: false
+    notes: VRP heuristic solver — combinatorial / branch-heavy CPU work.
+
+  k6:
+    resource_profile: cpu
+    secondary_profile: network
+    parallelism: multi_thread
+    workload_kind: iterations
+    gpu_kind: none
+    is_network_bound: true
+    notes: HTTP load generator; partially network-bound, treat with care for cross-hardware comparison.
+
+  iperf3:
+    resource_profile: network
+    parallelism: single
+    workload_kind: bytes
+    gpu_kind: none
+    is_network_bound: true
+    notes: Pure network throughput — exclude from hardware-only modeling.
+
+  network-tools:
+    resource_profile: network
+    parallelism: single
+    workload_kind: count
+    gpu_kind: none
+    is_network_bound: true
+    notes: Ping / traceroute / DNS — depends entirely on network path.

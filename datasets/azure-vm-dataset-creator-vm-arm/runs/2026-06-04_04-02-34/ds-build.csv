@@ -1,0 +1,41 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 04:18:45,,8.0,1.12,32024.234375,,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,,,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,0,39
+2026-06-04 04:18:47,,8.0,1.12,32024.234375,4.99609375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,,,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,2,37
+2026-06-04 04:18:49,35.97829996130848,8.0,1.11,32024.234375,86.64453125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.965559909430096e-05,1.4076071895850278e-05,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,,,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,4,35
+2026-06-04 04:18:51,55.97530479522583,8.0,1.11,32024.234375,124.890625,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.15791501135171e-05,1.2452647581665125e-05,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,6,33
+2026-06-04 04:18:53,75.92881691656589,8.0,1.11,32024.234375,112.73828125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.671785480950799e-05,1.0762950769598952e-05,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.264185546875,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,8,31
+2026-06-04 04:18:55,95.92835332047159,8.0,1.1,32024.234375,82.2265625,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,5.069908477357985e-05,8.586135324557878e-06,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.3067151530625353,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,10,29
+2026-06-04 04:18:57,99.93628445292924,8.0,1.1,32024.234375,49.26171875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.96530272621853e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.3877818876029114,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,12,27
+2026-06-04 04:18:59,99.93506283439095,8.0,1.09,32024.234375,83.53515625,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.306233936597922e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.4043797436854547,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,14,25
+2026-06-04 04:19:01,89.66036167034407,8.0,1.09,32024.234375,3.69140625,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.49617812003319006,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,16,23
+2026-06-04 04:19:03,99.99189149125407,8.0,1.09,32024.234375,95.39453125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,9.895820063509857e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.47713459828046245,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,18,21
+2026-06-04 04:19:05,99.98303092256583,8.0,1.08,32024.234375,74.703125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.530181720986137e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.5854882762586251,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,20,19
+2026-06-04 04:19:07,99.99514597673864,8.0,1.08,32024.234375,136.18359375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.922763131787027e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.5437967303584144,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,22,17
+2026-06-04 04:19:09,99.98605840972074,8.0,1.08,32024.234375,119.34375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.11545535583431e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.2714639735664038,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,24,15
+2026-06-04 04:19:11,99.98422138191818,8.0,1.08,32024.234375,71.94921875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.3724074710668042,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,26,13
+2026-06-04 04:19:13,99.98763150412282,8.0,1.08,32024.234375,54.20703125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.2204693275518908,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,28,11
+2026-06-04 04:19:15,99.96100301452454,8.0,1.07,32024.234375,70.3984375,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.5068811660728967,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,30,9
+2026-06-04 04:19:17,88.7460492672414,8.0,1.07,32024.234375,124.26953125,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.4398033405172414,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,32,7
+2026-06-04 04:19:19,99.9563989962359,8.0,1.06,32024.234375,110.0546875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.376060495412484e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.6028466122961105,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,34,5
+2026-06-04 04:19:21,99.95583019881778,8.0,1.06,32024.234375,87.9296875,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.17433660918189e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.5285296883396023,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,36,3
+2026-06-04 04:19:23,99.9791718101223,8.0,1.06,32024.234375,42.87890625,Compilation Benchmark,gcc:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,7.4915500110467406e-06,0.0,azure-vm-dataset-creator-vm-arm,511.82,,,,3.0,rounds,,0.0,0.3897044383346426,,,,2026-06-04 04:18:45,2026-06-04 04:19:24,39.0,38,1

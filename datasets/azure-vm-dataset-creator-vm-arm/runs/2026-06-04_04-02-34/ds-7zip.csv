@@ -1,0 +1,33 @@
+timestamp,cpu_usage,cpu_cores,cpu_load_avg_1s,memory_avail,memory_usage,service_type,service_name,architecture_type,gpu_usage,gpu_memory_usage,gpu_memory_total,npu_usage,npu_name,npu_memory_usage,npu_memory_total,gpu_name,cpu_name,memory_swap,network_receive,network_transmit,hostname,service_size,gpu_clock_value,cpu_clock_value,num_param,workload_value,workload_unit,gpu_power_usage,disk_read,disk_write,cpu_temp,gpu_temp,npu_temp,start_time,end_time,execution_time,elapsed_seconds,remaining_seconds
+2026-06-04 04:18:02,,8.0,0.86,32024.234375,,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,,,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,0,30
+2026-06-04 04:18:04,,8.0,0.87,32024.234375,3.28515625,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,,,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,,,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,2,28
+2026-06-04 04:18:06,37.539134483315394,8.0,0.87,32024.234375,5.84765625,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.4629140040846251,0.00227641587108534,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,,,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,4,26
+2026-06-04 04:18:08,57.59803114639397,8.0,0.96,32024.234375,5.84765625,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.7113871232557347,0.003496174560809674,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,,,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,6,24
+2026-06-04 04:18:10,107.86051322878232,8.0,0.96,32024.234375,21.49609375,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.5484236028654842,0.002700879623675845,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,,,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,8,22
+2026-06-04 04:18:12,146.53373807668822,8.0,0.96,32024.234375,27.43359375,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.5483342347847904,0.0027004401490778288,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,10,20
+2026-06-04 04:18:14,180.21486707824118,8.0,1.05,32024.234375,35.390625,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,2.427141387351172e-05,1.0093063194925665e-05,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,12,18
+2026-06-04 04:18:16,160.36994616973618,8.0,1.05,32024.234375,63.04296875,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,14,16
+2026-06-04 04:18:18,196.1224482013474,8.0,1.12,32024.234375,62.79296875,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.485725454231283e-06,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,16,14
+2026-06-04 04:18:20,195.12499355836127,8.0,1.12,32024.234375,255.546875,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.600515607889398e-06,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,18,12
+2026-06-04 04:18:22,190.79145577549485,8.0,1.12,32024.234375,81.75390625,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.363468071716048e-06,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,20,10
+2026-06-04 04:18:24,188.921871173157,8.0,1.19,32024.234375,208.46875,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.175018631941893e-06,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,22,8
+2026-06-04 04:18:26,187.53786731682285,8.0,1.19,32024.234375,386.54296875,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,24,6
+2026-06-04 04:18:28,182.6923280757097,8.0,1.26,32024.234375,524.3984375,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,0.0,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,26,4
+2026-06-04 04:18:30,169.70241667505792,8.0,1.26,32024.234375,102.31640625,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,6.722102723636845e-06,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,28,2
+2026-06-04 04:18:32,143.53955465234154,8.0,1.26,32024.234375,102.31640625,Compression Benchmark,alpine:latest,CPU,,,,,,,,,"
+Unknown CPU",0.0,8.435674152123733e-06,0.0,azure-vm-dataset-creator-vm-arm,4.02,,,,1.0,rounds,,0.0,0.0,,,,2026-06-04 04:18:02,2026-06-04 04:18:32,30.0,30,0

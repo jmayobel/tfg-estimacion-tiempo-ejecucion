@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "dataset-creator-gpu-vm"
+    },
+    "vmSize": {
+      "value": "Standard_NC4as_T4_v3"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "sshPublicKey": {
+      "value": "REPLACE_WITH_YOUR_SSH_PUBLIC_KEY"
+    },
+    "osDiskType": {
+      "value": "Premium_LRS"
+    },
+    "osDiskSizeGB": {
+      "value": 256
+    },
+    "enableDataDisk": {
+      "value": true
+    },
+    "dataDiskSizeGB": {
+      "value": 1024
+    },
+    "enableAcceleratedNetworking": {
+      "value": true
+    },
+    "environment": {
+      "value": "production"
+    },
+    "projectTag": {
+      "value": "dataset-creator"
+    },
+    "useSpot": {
+      "value": false
+    }
+  }
+}

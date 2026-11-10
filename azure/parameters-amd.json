@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "dataset-creator-vm-amd"
+    },
+    "vmSize": {
+      "value": "Standard_D4as_v4"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "sshPublicKey": {
+      "value": "REPLACE_WITH_YOUR_SSH_PUBLIC_KEY"
+    },
+    "osDiskType": {
+      "value": "StandardSSD_LRS"
+    },
+    "osDiskSizeGB": {
+      "value": 128
+    },
+    "enableDataDisk": {
+      "value": false
+    },
+    "dataDiskSizeGB": {
+      "value": 512
+    },
+    "enableAcceleratedNetworking": {
+      "value": true
+    },
+    "environment": {
+      "value": "production"
+    },
+    "projectTag": {
+      "value": "dataset-creator"
+    },
+    "useSpot": {
+      "value": false
+    }
+  }
+}
